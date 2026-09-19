@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<!--
+HSK3.0 全真模拟试卷 1 · ONLINE ENGINE
+- 70 câu: Nghe 1–30, Đọc 31–60, Viết 61–70
+- Bắt buộc trả lời đủ mới nộp; có thể nộp/chấm riêng từng phần
+- Tạm dừng = khóa toàn bộ thao tác + dừng audio
+- Viết 61–65 tự chấm 5 điểm/câu; 66–70 giáo viên chấm 0–15 điểm/câu
+- Nội dung đã tích hợp từ đề, đáp án, bản chép lời và file nghe của 全真模拟试卷 1.
+--><html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>HSK 3.0（三级）全真模拟试卷 1 · Đề thi online</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&amp;family=Noto+Sans+SC:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{--jade-100:#dcf3e6;--jade-200:#b3e6cb;--jade-300:#7fd3ab;--jade-400:#45bd87;--jade-500:#16a86b;--jade-600:#0e8f5a;--jade-rgb:22,168,107;--bg1:#ecf7f1;--bg2:#e6f3ec;--bg3:#eefaf3;--ink:#0f2a1f;--ink2:#4a6459;--ink3:#7f9a8d;--line:#dcebe3;--line2:#c8e0d3;--card:#fff;--field:#f6fcf9;--field2:#fafcfb;--brand:var(--jade-500);--brand-d:var(--jade-600);--brand-l:var(--jade-100);--ok:#0e8f5a;--ok-l:#dcf3e6;--no:#e05563;--no-l:#fdeaec;--warn:#e8901a;--warn-l:#fdf1de;--shadow:0 2px 4px rgba(15,42,31,.04),0 12px 32px rgba(15,42,31,.08);--shadow-s:0 1px 2px rgba(15,42,31,.05),0 4px 12px rgba(15,42,31,.06);--zh:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;--vi:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif}
+body.dark{--bg1:#0c1a14;--bg2:#0a1712;--bg3:#0e1f18;--ink:#e6f2ec;--ink2:#a3c2b4;--ink3:#6f8b7e;--line:#1e3529;--line2:#294636;--card:#122019;--field:#16261e;--field2:#16261e;--brand:var(--jade-400);--brand-d:var(--jade-300);--brand-l:#123d2b;--ok:var(--jade-400);--ok-l:#123d2b;--no:#f07a82;--no-l:#3a1c1f;--warn:#f0a94a;--warn-l:#3a2a12;--shadow:0 2px 4px rgba(0,0,0,.3),0 12px 32px rgba(0,0,0,.45);--shadow-s:0 1px 2px rgba(0,0,0,.3),0 4px 12px rgba(0,0,0,.35)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{min-height:100vh;font-family:var(--vi);color:var(--ink);line-height:1.55;background:radial-gradient(1100px 620px at 8% -8%,#e9f8f0 0%,transparent 58%),radial-gradient(900px 560px at 100% 0%,#dff3ea 0%,transparent 55%),linear-gradient(170deg,var(--bg1),var(--bg2) 55%,var(--bg3));background-attachment:fixed;-webkit-font-smoothing:antialiased}
+body.dark{background:linear-gradient(170deg,var(--bg1),var(--bg2) 55%,var(--bg3))}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+button:disabled{opacity:.45;cursor:not-allowed}
+a{color:inherit}.zh,.hanzi{font-family:var(--zh)}
+.topbar{position:sticky;top:0;z-index:60;display:flex;align-items:center;gap:10px;padding:11px 18px;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+body.dark .topbar{background:rgba(15,26,20,.88)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--brand-d)}.brand-badge{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:var(--brand);color:#fff;font-family:var(--zh);box-shadow:var(--shadow-s)}
+.topbar-right{margin-left:auto;display:flex;align-items:center;gap:9px}
+.icon-btn,.timer{height:38px;padding:0 12px;border-radius:11px;background:var(--card);border:1px solid var(--line2);display:flex;align-items:center;gap:7px;justify-content:center;font-size:13px;font-weight:700;box-shadow:var(--shadow-s)}
+.timer{font-variant-numeric:tabular-nums}.timer .dot{width:7px;height:7px;border-radius:50%;background:var(--ok)}.timer.warn{color:var(--warn);background:var(--warn-l)}.timer.danger{color:var(--no);background:var(--no-l)}
+.player{position:sticky;top:61px;z-index:55;display:flex;align-items:center;gap:12px;padding:9px 18px;background:linear-gradient(90deg,var(--jade-100),#eafaf1);border-bottom:1px solid var(--line)}
+body.dark .player{background:#123326}.pl-title{font-size:12.5px;font-weight:800;color:var(--brand-d);white-space:nowrap}.pl-btn{width:36px;height:36px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;flex:none}.pl-btn.sm{width:31px;height:31px;background:var(--card);color:var(--brand-d);border:1px solid var(--jade-200)}.pl-track{flex:1;height:8px;background:var(--card);border-radius:5px;position:relative;overflow:hidden;min-width:80px;cursor:pointer}.pl-fill{position:absolute;inset:0 auto 0 0;width:0;background:var(--brand)}.pl-time{font-size:12px;color:var(--ink2);font-weight:700;white-space:nowrap}.pl-rate{padding:6px 9px;border-radius:9px;background:var(--card);border:1px solid var(--jade-200);color:var(--brand-d);font-size:12px;font-weight:800}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;max-width:1460px;margin:0 auto;padding:20px;align-items:start}
+.paper,.sheet,.result{background:var(--card);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}
+.paper-head{padding:28px 30px 22px;border-bottom:1px solid var(--line);text-align:center}.tag{display:inline-block;background:var(--brand);color:#fff;font-family:var(--zh);font-weight:700;font-size:13px;padding:5px 13px;border-radius:9px;transform:rotate(-4deg);margin-right:7px}.paper-head h1{display:inline-block;font-family:var(--zh);font-size:27px}.paper-head .vn{font-size:18px;font-weight:800;margin-top:7px}.paper-sub{font-size:13px;color:var(--ink3);margin-top:5px}
+.notice{margin:16px 30px 0;border:1px solid var(--line2);border-radius:14px;overflow:hidden}.notice-title{padding:16px 18px 8px;text-align:center;font-size:28px;font-weight:700;letter-spacing:.35em;color:var(--ink)}
+.notice-static .notice-body{padding-top:10px;font-size:16px;line-height:1.9}
+.notice summary{padding:12px 16px;background:var(--field);font-weight:800;font-size:13.5px;cursor:pointer;list-style:none;display:flex;gap:8px;align-items:center}.notice summary::-webkit-details-marker{display:none}.notice-body{padding:15px 19px;font-size:13.5px;color:var(--ink2)}.notice-body ol{padding-left:21px}.notice-body li{margin:5px 0}
+.section-band{display:flex;align-items:center;gap:12px;padding:17px 30px;background:linear-gradient(90deg,var(--brand-l),transparent);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:20px;scroll-margin-top:128px}.section-band .num{width:36px;height:36px;border-radius:10px;background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:800}.section-band h2{font-family:var(--zh);font-size:20px}.section-band .meta{margin-left:auto;font-size:12.5px;color:var(--ink2);font-weight:600;text-align:right}
+.section-intro{padding:20px 30px 6px}.guide{background:var(--field);border-left:3px solid var(--brand);border-radius:0 12px 12px 0;padding:11px 14px;font-size:13.5px;color:var(--ink2)}.guide .zh{color:var(--ink);font-weight:700}
+.part{padding:0 30px 20px}.part-card{background:var(--field2);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:18px}.part-title{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}.part-title h3{font-family:var(--zh);font-size:22px}.part-title .meta{font-size:13px;color:var(--ink2);font-weight:700}.part-guide{font-size:13.5px;color:var(--ink2);margin-bottom:14px}.part-guide .zh{display:block;color:var(--ink);font-weight:700;margin-bottom:2px}
+.image-box{border:1px dashed var(--line2);border-radius:16px;background:var(--card);padding:12px;margin-bottom:14px}.img-wrap{background:#f8f6f2;border-radius:12px;overflow:hidden}.img-wrap img{display:block;width:100%;height:auto}
+.qzone{background:#f7eee8;border-radius:18px;padding:16px;margin-bottom:14px}body.dark .qzone{background:#2a1f18}
+.q{background:var(--card);border-radius:14px;padding:15px 16px;margin-bottom:11px;border:2px solid transparent;transition:.15s;scroll-margin-top:146px}.q:last-child{margin-bottom:0}.q.active{border-color:var(--brand);box-shadow:0 0 0 4px rgba(var(--jade-rgb),.11)}.q.graded{pointer-events:none}.q-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.q-no{width:31px;height:31px;border-radius:9px;background:var(--brand-l);color:var(--brand-d);display:grid;place-items:center;font-weight:800;font-size:14px;flex:none}.q-title{font-family:var(--zh);font-size:16.5px;font-weight:700}
+.letters{display:flex;gap:8px;flex-wrap:wrap}.letter{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:11px;border:2px solid var(--line);background:var(--card);font-weight:800;font-size:15px;line-height:1;color:var(--ink2);transition:.15s}.letter:hover{border-color:var(--jade-300);background:var(--field)}.letter.pick{background:var(--brand);border-color:var(--brand);color:#fff}.letter.correct{background:var(--ok);border-color:var(--ok);color:#fff}.letter.wrong{background:var(--no);border-color:var(--no);color:#fff}
+.opts{display:grid;gap:9px}.opt{display:flex;align-items:center;gap:11px;padding:11px 13px;border-radius:12px;border:2px solid var(--line);background:var(--card);text-align:left;width:100%;transition:.15s}.opt:hover{border-color:var(--jade-300);background:var(--field)}.opt .L{width:28px;height:28px;border-radius:50%;border:2px solid var(--line2);color:var(--ink3);display:grid;place-items:center;font-weight:800;font-size:13px;flex:none;transition:.15s}.opt .txt{font-family:var(--zh);font-size:16.5px}.opt.pick{border-color:var(--brand);background:var(--brand-l)}.opt.pick .L{background:var(--brand);border-color:var(--brand);color:#fff}.opt.correct{border-color:var(--ok);background:var(--ok-l)}.opt.correct .L{background:var(--ok);border-color:var(--ok);color:#fff}.opt.wrong{border-color:var(--no);background:var(--no-l)}.opt.wrong .L{background:var(--no);border-color:var(--no);color:#fff}
+.verdict{margin-top:11px;padding:10px 13px;border-radius:11px;font-size:13.5px;background:var(--field2);border-left:3px solid var(--brand);font-weight:600}.verdict.right{background:var(--ok-l);border-left-color:var(--ok);color:var(--ok)}.verdict.wrongv{background:var(--no-l);border-left-color:var(--no);color:var(--no)}
+.placeholder-card{padding:18px 30px 26px}.placeholder-note{border:1px dashed var(--line2);border-radius:14px;padding:13px 15px;margin-bottom:14px;background:var(--field);font-size:13px;color:var(--ink2)}.qgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.qstub{border:1.5px solid var(--line);border-radius:14px;padding:14px;background:var(--card);min-height:90px}.slot{display:inline-block;padding:4px 8px;border-radius:7px;background:var(--field);border:1px dashed var(--line2);font-size:11px;color:var(--ink3)}
+.result{padding:24px 30px;margin-bottom:20px;display:none}.result.on{display:block}.res-top{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.score-badge{width:132px;height:132px;border-radius:50%;display:grid;place-items:center;flex:none;background:conic-gradient(var(--brand) var(--p,0%),#eef1fa 0);position:relative}.score-badge::before{content:"";position:absolute;inset:11px;border-radius:50%;background:var(--card)}.score-badge .inner{position:relative;text-align:center}.score-badge .n{font-size:34px;font-weight:800;line-height:1}.score-badge .d{font-size:12px;color:var(--ink3)}.res-info h2{font-size:22px;margin-bottom:6px}.res-note{display:inline-flex;align-items:center;gap:7px;padding:6px 14px;border-radius:20px;font-weight:800;font-size:14px;background:var(--brand-l);color:var(--brand-d)}.res-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px;margin-top:14px}.stat{background:var(--field2);border-radius:13px;padding:10px 13px}.stat .k{font-size:11.5px;color:var(--ink3);font-weight:600}.stat .v{font-size:19px;font-weight:800;margin-top:2px}.result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.sheet{position:sticky;top:118px}.sheet-head{padding:16px 20px;background:linear-gradient(120deg,var(--jade-100),#eafaf1);display:flex;align-items:center;gap:10px}body.dark .sheet-head{background:#123326}.sheet-head h3{font-family:var(--zh);font-size:18px}.sheet-head .cnt{font-size:12px;color:var(--ink2)}.sheet-body{padding:17px 20px 20px}.progress{display:flex;justify-content:space-between;align-items:end;margin-bottom:12px;gap:12px}.progress .big{font-size:29px;font-weight:800;line-height:1}.progress .lbl{font-size:12px;color:var(--ink3)}.pbar{height:9px;border-radius:6px;background:var(--field);overflow:hidden;margin-bottom:15px}.pbar-fill{height:100%;width:0;background:var(--brand)}.grid-scroll{max-height:min(42vh,350px);overflow-y:auto;padding-right:4px}.gsec{font-family:var(--zh);font-size:11.5px;font-weight:800;color:var(--ink3);margin:10px 2px 6px}.gsec:first-child{margin-top:0}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.cell{aspect-ratio:1;border-radius:10px;border:1.5px solid var(--line2);background:var(--card);font-weight:700;font-size:13px;color:var(--ink2);display:grid;place-items:center;position:relative;transition:.15s}.cell:hover{border-color:var(--brand)}.cell.here{box-shadow:0 0 0 3px rgba(var(--jade-rgb),.22)}.cell.done{background:var(--brand);border-color:var(--brand);color:#fff}.cell.right{background:var(--ok);border-color:var(--ok);color:#fff}.cell.bad{background:var(--no);border-color:var(--no);color:#fff}.cell.dim{opacity:.45}
+.sheet-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:16px}.btn{padding:11px;border-radius:12px;border:1px solid var(--line2);background:var(--card);font-weight:700;font-size:13px}.btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}.btn.ghost{background:var(--field)}.hint{font-size:11px;color:var(--ink3);line-height:1.6;text-align:center;margin-top:11px}
+footer{padding:18px 30px 25px;text-align:center;color:var(--ink3);font-size:12px;border-top:1px solid var(--line)}.quick-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px;justify-content:center}.quick-nav a{text-decoration:none;color:var(--brand-d);background:var(--brand-l);border:1px solid var(--jade-200);padding:6px 10px;border-radius:9px;font-size:12px;font-weight:700}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(70px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:11px;font-size:13px;opacity:0;transition:.25s;z-index:90}.toast.on{transform:translateX(-50%) translateY(0);opacity:1}
+
+.writing-part{padding:0 30px 20px}
+.writing-card{background:#fff7ef;border:1.5px solid #b9d1ff;border-radius:20px;overflow:hidden;margin-bottom:18px}
+body.dark .writing-card{background:#201b18;border-color:#38547b}
+.writing-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.52)}
+body.dark .writing-card-head{background:rgba(255,255,255,.03)}
+.writing-card-head h3{font-family:var(--zh);font-size:21px}.writing-card-head .meta{font-size:12.5px;color:var(--ink2);font-weight:700}
+.writing-example{padding:14px 18px;font-family:var(--zh);font-size:17px;background:var(--card);border-bottom:1px solid var(--line)}
+.writing-example b{color:var(--brand-d)}
+.writing-char-list{display:grid;gap:12px;padding:18px}
+.writing-q{background:var(--card);border:2px solid transparent;border-radius:15px;padding:16px 18px;scroll-margin-top:146px;transition:.15s}
+.writing-q.active{border-color:var(--brand);box-shadow:0 0 0 4px rgba(var(--jade-rgb),.10)}
+.writing-char-line{font-family:var(--zh);font-size:21px;line-height:1.9;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.writing-char-line .mini-no{font-family:var(--vi);font-size:15px;font-weight:800;color:var(--brand-d);background:var(--brand-l);border-radius:8px;padding:2px 8px}
+.write-char{width:92px;border:0;border-bottom:2px solid var(--ink3);background:transparent;text-align:center;font-family:var(--zh);font-size:24px;color:var(--ink);outline:none;padding:2px 4px}
+.write-char:focus{border-bottom-color:var(--brand)}
+.pinyin-hint{font-family:var(--vi);font-size:17px;color:var(--ink2)}
+.writing-open-list{display:grid;gap:15px;padding:18px}
+.writing-open-q{background:#f2f6ff;border:2px solid transparent;border-radius:17px;padding:16px 18px;scroll-margin-top:146px;transition:.15s}
+body.dark .writing-open-q{background:#182333}
+.writing-open-q.active{border-color:var(--brand);box-shadow:0 0 0 4px rgba(var(--jade-rgb),.10)}
+.writing-open-top{display:grid;grid-template-columns:220px 150px minmax(180px,1fr);align-items:center;gap:24px;margin-bottom:15px}
+.writing-pic{width:220px;height:180px;object-fit:contain;border-radius:12px;background:#fff;border:1px solid var(--line)}
+.writing-word{font-family:var(--zh);font-size:28px;text-align:center;font-weight:600}
+.writing-line{height:2px;background:var(--ink);opacity:.85}
+.write-sentence{width:100%;min-height:118px;resize:vertical;border:1.5px solid var(--line2);border-radius:13px;background:var(--card);color:var(--ink);font-family:var(--zh);font-size:20px;line-height:1.65;padding:14px 16px;outline:none}
+.write-sentence:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(var(--jade-rgb),.08)}
+.write-char.correct,.write-sentence.correct{border-color:var(--ok)!important;background:var(--ok-l)!important}
+.write-char.wrong,.write-sentence.wrong{border-color:var(--no)!important;background:var(--no-l)!important}
+.write-sentence::placeholder{color:#b8c0c8}.writing-help{padding:0 18px 18px;font-size:12px;color:var(--ink3)}
+@media(max-width:760px){.writing-open-top{grid-template-columns:1fr;text-align:center}.writing-pic{margin:auto;width:min(260px,100%);height:190px}.writing-word{font-size:25px}.writing-line{max-width:420px;width:100%;margin:auto}}
+
+@media(max-width:1080px){.layout{grid-template-columns:1fr;padding:14px}.sheet{position:static}.qgrid{grid-template-columns:1fr}}
+@media(max-width:640px){.brand-text{display:none}.topbar{padding:9px 10px}.player{top:57px;padding:8px 10px;gap:8px}.pl-title{display:none}.paper-head{padding:23px 15px 18px}.paper-head h1{font-size:21px}.notice{margin-left:15px;margin-right:15px}.section-band,.section-intro,.part,.placeholder-card,footer,.result{padding-left:15px;padding-right:15px}.part-card{padding:14px}.section-band .meta{font-size:11px}.grid{grid-template-columns:repeat(6,1fr)}}
+
+/* ---------- 阅读 第一部分：配对 ---------- */
+.reading-part{padding:0 30px 20px}
+.reading-bank{background:var(--card);border:1px dashed var(--line2);border-radius:14px;padding:14px 16px;margin-bottom:14px}
+.reading-bank-title{font-size:12px;font-weight:800;color:var(--ink3);letter-spacing:.5px;margin-bottom:9px}
+.reading-bank-grid{display:grid;grid-template-columns:1fr;gap:8px}
+.reading-bank-item{display:flex;gap:10px;align-items:flex-start;padding:9px 11px;border-radius:11px;background:var(--field)}
+.reading-bank-item .ll{width:27px;height:27px;border-radius:50%;display:grid;place-items:center;flex:none;background:var(--brand-l);color:var(--brand-d);font-weight:800;font-size:12px}
+.reading-bank-item .txt{font-family:var(--zh);font-size:16px;line-height:1.7}
+.reading-example{border:1px dashed var(--line2);border-radius:14px;padding:13px 15px;margin:12px 0 15px;background:var(--card);font-family:var(--zh);font-size:16px}
+.reading-example .ans{float:right;background:var(--ok-l);color:var(--ok);font-family:var(--vi);font-weight:800;padding:2px 10px;border-radius:999px}
+.reading-q .q-prompt{font-family:var(--zh);font-size:17px;line-height:1.75;margin-bottom:12px}
+.reading-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.reading-note{font-size:12px;color:var(--ink3);margin-top:10px;line-height:1.6}
+.reading-score{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--field);font-size:13.5px;font-weight:700}
+
+.reading-word-bank{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px}
+.reading-word-chip{font-family:var(--zh);font-size:16px;font-weight:600;padding:8px 14px;border-radius:11px;background:var(--brand-l);border:1px solid var(--jade-200);color:var(--brand-d)}
+.reading-source-note{font-size:12px;color:var(--ink3);margin:-4px 0 12px;line-height:1.6}
+.reading-dialogue{font-family:var(--zh);font-size:17px;line-height:1.9;white-space:pre-line;margin-bottom:12px}
+.reading-passage{font-family:var(--zh);font-size:16.5px;line-height:1.9;background:var(--field);border-left:3px solid var(--brand);border-radius:0 12px 12px 0;padding:12px 15px;margin-bottom:12px}
+.reading-question{font-family:var(--zh);font-size:16.5px;font-weight:700;margin:8px 0 11px}
+.reading-subpart-label{display:flex;align-items:center;gap:10px;margin:6px 0 13px;font-family:var(--zh);font-weight:800;color:var(--brand-d)}
+.reading-subpart-label::after{content:"";height:1px;background:var(--line);flex:1}
+@media(max-width:640px){.reading-part{padding-left:15px;padding-right:15px}.reading-bank-item .txt{font-size:15px}}
+
+</style>
+<style id="ux-v2">
+/* =============================================================
+   HSK3 UX/UI V2 — tối ưu làm bài, trình chiếu và responsive
+   ============================================================= */
+:root{
+  --page:#f3f7f5; --surface:#ffffff; --surface-soft:#f7faf8;
+  --text:#173229; --muted:#647a70; --soft-border:#dce8e2;
+  --accent:#11845a; --accent-2:#0d6f4b; --accent-soft:#e8f5ef;
+  --focus:0 0 0 4px rgba(17,132,90,.15);
+  --radius-xl:20px; --radius-lg:16px; --radius-md:12px;
+  --topbar-h:58px; --nav-h:50px; --player-h:54px;
+}
+body{background:var(--page);font-size:15px;line-height:1.7}
+body.dark{--page:#0d1713;--surface:#13211b;--surface-soft:#172820;--text:#ecf5f0;--muted:#9db6aa;--soft-border:#294036;--accent:#4bc28b;--accent-2:#7bd9aa;--accent-soft:#173b2b}
+body.dark{color:var(--text)}
+button,a,input,textarea{outline:none}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{box-shadow:var(--focus);border-color:var(--accent)!important}
+
+/* Header */
+.topbar{min-height:var(--topbar-h);padding:10px max(16px,calc((100vw - 1560px)/2));background:rgba(255,255,255,.94);box-shadow:0 1px 0 rgba(17,59,42,.08);gap:12px}
+body.dark .topbar{background:rgba(13,23,19,.94)}
+.brand{font-size:15px;letter-spacing:.1px}.brand-badge{width:38px;height:38px;border-radius:12px;background:linear-gradient(145deg,var(--accent),#21a872);box-shadow:none}
+.icon-btn,.timer{height:38px;border:1px solid var(--soft-border);box-shadow:none;background:var(--surface);border-radius:10px;color:var(--text)}
+.icon-btn:hover{background:var(--surface-soft);border-color:#b9d5c8}
+.present-btn{min-width:116px}.timer{min-width:88px;font-size:14px}.timer .dot{background:var(--accent)}
+
+/* Primary section navigation */
+.exam-nav{position:sticky;top:var(--topbar-h);z-index:58;height:var(--nav-h);display:flex;justify-content:center;gap:8px;padding:6px 16px;background:rgba(243,247,245,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--soft-border)}
+body.dark .exam-nav{background:rgba(13,23,19,.94)}
+.exam-nav-item{height:38px;min-width:142px;padding:0 14px;border-radius:10px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-weight:700;border:1px solid transparent;transition:.18s ease}
+.exam-nav-item:hover{background:var(--surface);color:var(--accent-2)}
+.exam-nav-item.active{background:var(--surface);color:var(--accent-2);border-color:#cbe1d7;box-shadow:0 2px 8px rgba(22,65,48,.06)}
+.exam-nav-item .nav-main{font-size:15px}.exam-nav-item .nav-sub{font-size:11px;font-variant-numeric:tabular-nums;opacity:.72}.nav-ico{font-size:15px}
+
+/* Audio player */
+.player{top:calc(var(--topbar-h) + var(--nav-h));min-height:var(--player-h);padding:8px max(16px,calc((100vw - 1560px)/2));background:#eaf6f0;border-bottom:1px solid #d2e8dd;box-shadow:0 4px 12px rgba(26,73,54,.04)}
+body.dark .player{background:#17372a}
+.pl-title{font-size:13px;color:var(--accent-2)}.pl-btn{background:var(--accent);box-shadow:none}.pl-btn:hover{filter:brightness(.96)}.pl-btn.sm,.pl-rate{border-color:#c8dfd4;background:var(--surface);color:var(--accent-2)}
+.pl-track{height:7px;box-shadow:inset 0 0 0 1px rgba(19,81,57,.08)}.pl-fill{background:var(--accent)}
+body.section-reading .player,body.section-writing .player{display:none}
+
+/* Main layout */
+.layout{grid-template-columns:minmax(0,1fr) 318px;gap:22px;max-width:1580px;padding:22px 20px 56px}
+.paper,.sheet,.result{background:var(--surface);border:1px solid var(--soft-border);box-shadow:0 8px 28px rgba(23,63,48,.06);border-radius:var(--radius-xl)}
+.paper{overflow:clip}.result{margin-bottom:18px}
+.paper-head{padding:30px 34px 24px;background:linear-gradient(180deg,#fff,#fbfdfc);border-color:var(--soft-border)}
+body.dark .paper-head{background:linear-gradient(180deg,#13211b,#101c17)}
+.paper-head h1{font-size:30px;color:var(--text)}.paper-head .vn{font-size:17px;color:var(--muted);font-weight:700}.paper-sub{font-size:13px;color:var(--muted)}
+.tag{background:var(--accent);transform:none;border-radius:999px;font-size:12px;padding:5px 11px}.quick-nav{display:none!important}
+
+/* Notice */
+.notice{margin:18px 34px 8px;border:1px solid var(--soft-border);border-radius:var(--radius-lg);background:var(--surface-soft)}
+.notice-title{font-size:25px;padding:16px 18px 6px;letter-spacing:.28em}.notice-static .notice-body{font-size:16px;line-height:1.9;color:var(--text);padding:8px 26px 20px}.notice-body>ol>li{margin:8px 0}.notice-body ol ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0 4px;padding-left:0;list-style:none}.notice-body ol ol li{background:var(--surface);border:1px solid var(--soft-border);border-radius:10px;padding:8px 10px;text-align:center}
+
+/* Section headings */
+.section-band{margin-top:26px;padding:18px 34px;background:linear-gradient(90deg,var(--accent-soft),rgba(232,245,239,0));border-color:var(--soft-border);scroll-margin-top:180px}
+.section-band .num{width:40px;height:40px;border-radius:12px;background:var(--accent);font-size:16px}.section-band h2{font-size:23px;color:var(--text)}.section-band .meta{font-size:12.5px;color:var(--muted)}
+.section-intro{padding:16px 34px 10px}.guide{padding:11px 14px;background:var(--surface-soft);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;font-size:15px;color:var(--text)}
+
+/* Parts and cards */
+.part,.reading-part,.writing-part{padding-left:34px;padding-right:34px;padding-bottom:22px}
+.part-card{padding:20px;background:var(--surface-soft);border:1px solid var(--soft-border);border-radius:var(--radius-lg);margin-bottom:4px}
+.part-title{margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--soft-border)}.part-title h3{font-size:22px}.part-title .meta{margin-left:auto;color:var(--muted)}
+.part-guide{font-size:16px;line-height:1.75;color:var(--text);background:var(--surface);border:1px solid var(--soft-border);border-radius:12px;padding:12px 14px;margin-bottom:16px}.part-guide .zh{font-weight:500}
+.image-box{border:1px solid var(--soft-border);background:var(--surface);padding:10px;border-radius:14px}.img-wrap{background:#fbfaf8;border-radius:10px}.img-wrap img{max-height:660px;object-fit:contain;margin:auto}
+
+/* Questions */
+.qzone{background:transparent;padding:0;margin:12px 0 4px;display:grid;gap:12px}
+.q{background:var(--surface);border:1px solid var(--soft-border);border-radius:14px;padding:16px 18px;margin:0;box-shadow:0 2px 8px rgba(30,67,52,.025);scroll-margin-top:180px}
+.q:hover{border-color:#bfd9cd}.q.active{border-color:var(--accent);box-shadow:var(--focus)}
+.q-head{margin-bottom:12px}.q-no{width:34px;height:34px;border-radius:10px;background:var(--accent-soft);color:var(--accent-2);font-size:14px}.q-title{font-size:17px;color:var(--text)}
+.letters{gap:10px}.letter{min-width:48px;width:48px;height:46px;border-radius:10px;border:1.5px solid #cfddd7;font-size:16px;color:var(--text);background:var(--surface)}.letter:hover{border-color:var(--accent);background:var(--accent-soft)}.letter.pick{background:var(--accent);border-color:var(--accent);color:#fff}
+.opts{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.opt{min-height:50px;padding:10px 12px;border:1.5px solid var(--soft-border);border-radius:11px;background:var(--surface)}.opt:hover{border-color:var(--accent);background:var(--accent-soft)}.opt .L{width:30px;height:30px;border:1.5px solid #c8d8d0;font-size:13px}.opt .txt{font-size:18px;line-height:1.55}.opt.pick{border-color:var(--accent);background:var(--accent-soft)}.opt.pick .L{background:var(--accent);border-color:var(--accent)}
+.verdict{border-radius:10px;font-size:13px}
+
+/* Reading */
+.reading-bank{background:var(--surface);border:1px solid var(--soft-border);border-radius:14px;padding:14px 16px;margin-bottom:16px}.reading-bank-title{color:var(--accent-2);font-size:12px}.reading-bank-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.reading-bank-item{background:var(--surface-soft);border:1px solid transparent;border-radius:10px;padding:9px 11px}.reading-bank-item .ll{background:var(--accent-soft);color:var(--accent-2)}.reading-bank-item .txt{font-size:17px;line-height:1.65}
+.reading-word-bank{gap:10px}.reading-word-chip{font-size:17px;background:var(--accent-soft);border:1px solid #c9e0d5;color:var(--accent-2);padding:8px 15px}.reading-example{background:#fffdf8;border:1px solid #eadfca;font-size:17px}.reading-q .q-prompt,.reading-dialogue,.reading-question{font-size:18px;line-height:1.75;color:var(--text)}
+.reading-passage{font-size:18px;line-height:1.9;background:var(--surface);border:1px solid var(--soft-border);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:14px 16px}.reading-subpart-label{font-size:16px;color:var(--accent-2);margin-top:12px}
+
+/* Writing */
+.writing-card{background:#fffaf4;border:1px solid #eadfce;border-radius:var(--radius-lg)}body.dark .writing-card{background:#1f1d18;border-color:#443d31}.writing-card-head{padding:16px 20px;background:rgba(255,255,255,.58)}.writing-card-head h3{font-size:21px}.writing-example{font-size:18px;padding:14px 20px}.writing-char-list,.writing-open-list{padding:18px;gap:13px}.writing-q,.writing-open-q{border:1px solid var(--soft-border);background:var(--surface);border-radius:14px}.writing-char-line{font-size:22px;line-height:1.85}.writing-char-line .mini-no{font-size:13px;background:var(--accent-soft);color:var(--accent-2)}
+.write-char{width:96px!important;min-height:46px;border:1.5px solid #bdcec6!important;border-radius:8px!important;background:#fff!important;text-align:center;font-family:var(--zh)!important;font-size:24px!important;color:#172e26!important}.write-char:focus{border-color:var(--accent)!important;box-shadow:var(--focus)!important}.pinyin-hint{font-size:17px!important;color:var(--muted)!important}
+.writing-open-q{background:#f6f9ff}.writing-open-top{grid-template-columns:200px 130px minmax(180px,1fr);gap:24px}.writing-pic{width:200px;height:160px;border:1px solid var(--soft-border);border-radius:12px}.writing-word{font-size:28px}.writing-line{height:1.5px}.write-sentence{min-height:126px!important;padding:16px!important;border:1.5px solid #c8d5df!important;border-radius:12px!important;background:#fff!important;color:#172e26!important;font-family:var(--zh)!important;font-size:20px!important;line-height:1.75!important;resize:vertical}.write-sentence:focus{border-color:var(--accent)!important;box-shadow:var(--focus)!important}
+
+/* Answer sheet */
+.sheet{top:calc(var(--topbar-h) + var(--nav-h) + var(--player-h) + 14px);max-height:calc(100vh - var(--topbar-h) - var(--nav-h) - var(--player-h) - 30px);display:flex;flex-direction:column;border-radius:16px}
+body.section-reading .sheet,body.section-writing .sheet{top:calc(var(--topbar-h) + var(--nav-h) + 14px);max-height:calc(100vh - var(--topbar-h) - var(--nav-h) - 30px)}
+.sheet-head{padding:15px 17px;background:var(--surface);border-bottom:1px solid var(--soft-border);justify-content:space-between}.sheet-head>div{display:flex;align-items:baseline;gap:8px}.sheet-head h3{font-size:20px;color:var(--text)}.sheet-head .cnt{color:var(--muted)}.sheet-close{display:none;width:36px;height:36px;border-radius:10px;font-size:24px;color:var(--muted)}
+.sheet-body{padding:15px 16px 16px;min-height:0;display:flex;flex-direction:column}.progress{margin-bottom:10px}.progress .big{font-size:26px;color:var(--text)}.pbar{height:7px;margin-bottom:12px;background:#edf3f0}.pbar-fill{background:linear-gradient(90deg,var(--accent),#35b57f)}
+.grid-scroll{max-height:none;flex:1;overflow:auto;padding:0 3px 4px 0}.gsec{font-size:11px;margin:10px 2px 6px;color:var(--muted)}.grid{grid-template-columns:repeat(5,1fr);gap:6px}.cell{min-width:0;aspect-ratio:1;border-radius:8px;border:1px solid #cfddd7;font-size:12px;background:var(--surface);color:var(--muted)}.cell:hover{border-color:var(--accent);color:var(--accent-2)}.cell.here{box-shadow:0 0 0 3px rgba(17,132,90,.14);border-color:var(--accent)}.cell.done{background:var(--accent);border-color:var(--accent);color:#fff}.cell.right{background:var(--ok);border-color:var(--ok);color:#fff}.cell.bad{background:var(--no);border-color:var(--no);color:#fff}
+.sheet-actions{gap:8px;margin-top:12px}.btn{min-height:44px;border:1px solid var(--soft-border);border-radius:10px;font-size:12.5px;background:var(--surface);color:var(--text)}.btn:hover{background:var(--surface-soft)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.hint{font-size:10.5px;color:var(--muted)}
+
+/* Presentation mode */
+body.presentation .layout{grid-template-columns:minmax(0,1240px);justify-content:center;max-width:1320px}
+body.presentation .sheet{display:none}
+body.presentation .paper{box-shadow:none;border-width:1px}
+body.presentation .paper-head h1{font-size:36px}body.presentation .section-band h2{font-size:29px}body.presentation .part-title h3{font-size:27px}
+body.presentation .part-guide,body.presentation .guide{font-size:19px}
+body.presentation .q-title,body.presentation .reading-q .q-prompt,body.presentation .reading-dialogue,body.presentation .reading-question,body.presentation .reading-passage,body.presentation .opt .txt{font-size:22px}
+body.presentation .reading-bank-item .txt,body.presentation .reading-word-chip{font-size:20px}
+body.presentation .q{padding:20px 22px}.presentation .writing-char-line{font-size:27px}.presentation .write-sentence{font-size:23px!important}
+
+/* Mobile drawer */
+.sheet-toggle,.sheet-overlay{display:none}
+@media(max-width:1180px){
+  .layout{grid-template-columns:minmax(0,1fr) 286px;gap:16px;padding-left:14px;padding-right:14px}.opts{grid-template-columns:1fr}.reading-bank-grid{grid-template-columns:1fr}.sheet{top:calc(var(--topbar-h) + var(--nav-h) + var(--player-h) + 10px)}
+}
+@media(max-width:900px){
+  :root{--topbar-h:56px;--nav-h:46px;--player-h:52px}
+  body{padding-bottom:76px}
+  .topbar{padding:9px 12px}.brand-text{display:none}.brand-badge{width:36px;height:36px}.present-btn{display:none}.icon-btn{padding:0 10px}.timer{min-width:76px}
+  .exam-nav{justify-content:stretch;padding:5px 8px;gap:5px;overflow-x:auto}.exam-nav-item{flex:1;min-width:98px;height:36px;padding:0 8px;gap:5px}.nav-ico{display:none}.exam-nav-item .nav-main{font-size:14px}.exam-nav-item .nav-sub{font-size:10px}
+  .player{padding:7px 10px;gap:8px}.pl-title{display:none}.pl-time{font-size:11px}.pl-btn{width:34px;height:34px}.pl-btn.sm{width:30px;height:30px}.pl-rate{padding:5px 7px}
+  .layout{display:block;padding:12px 8px 24px}.paper,.result{border-radius:14px;box-shadow:none}.paper-head{padding:22px 16px 18px}.paper-head h1{font-size:25px}.paper-head .vn{font-size:15px}.paper-sub{font-size:12px}
+  .notice{margin:14px 12px 6px}.notice-title{font-size:22px}.notice-static .notice-body{font-size:14px;padding:7px 18px 16px}.notice-body ol ol{grid-template-columns:1fr;gap:6px}.notice-body ol ol li{text-align:left}
+  .section-band{padding:14px 14px;margin-top:18px;scroll-margin-top:165px}.section-band .num{width:36px;height:36px}.section-band h2{font-size:19px}.section-band .meta{font-size:10.5px}
+  .section-intro,.part,.reading-part,.writing-part{padding-left:12px;padding-right:12px}.section-intro{padding-top:12px}.guide{font-size:14px}.part-card{padding:12px;border-radius:13px}.part-title{padding-bottom:9px}.part-title h3{font-size:19px}.part-title .meta{font-size:11px}.part-guide{font-size:14.5px;padding:10px 11px}
+  .qzone{gap:9px}.q{padding:13px 12px;border-radius:12px;scroll-margin-top:165px}.q-no{width:32px;height:32px}.q-title{font-size:16px}.letters{display:grid;grid-template-columns:repeat(3,1fr)}.letter{width:100%;height:46px}.opts{grid-template-columns:1fr;gap:8px}.opt{min-height:52px;padding:10px 11px}.opt .txt{font-size:17px}
+  .reading-bank{padding:11px}.reading-bank-item .txt{font-size:16px}.reading-word-chip{font-size:16px;padding:7px 11px}.reading-q .q-prompt,.reading-dialogue,.reading-question,.reading-passage{font-size:17px}.reading-passage{padding:12px 13px}
+  .writing-card-head{padding:13px 14px}.writing-card-head h3{font-size:18px}.writing-card-head .meta{font-size:10.5px}.writing-example{font-size:16px;padding:12px 14px}.writing-char-list,.writing-open-list{padding:11px}.writing-char-line{font-size:19px;gap:5px}.write-char{width:82px!important;height:44px;font-size:22px!important}.pinyin-hint{font-size:15px!important}
+  .writing-open-top{grid-template-columns:104px 82px minmax(80px,1fr);gap:10px}.writing-pic{width:104px;height:94px}.writing-word{font-size:22px}.write-sentence{min-height:112px!important;font-size:18px!important;padding:13px!important}
+  .sheet{display:flex;position:fixed;z-index:220;left:0;right:0;bottom:0;top:auto!important;max-height:min(78vh,720px)!important;border-radius:20px 20px 0 0;transform:translateY(105%);transition:transform .25s ease;box-shadow:0 -16px 40px rgba(0,0,0,.16);border-bottom:0}.sheet.mobile-open{transform:translateY(0)}.sheet-close{display:grid;place-items:center}.sheet-body{padding-bottom:max(16px,env(safe-area-inset-bottom))}.grid-scroll{max-height:50vh}.grid{grid-template-columns:repeat(7,1fr)}.cell{min-height:38px;aspect-ratio:auto}.gsec{margin-top:11px}
+  .sheet-toggle{display:flex;position:fixed;z-index:180;left:50%;bottom:max(12px,env(safe-area-inset-bottom));transform:translateX(-50%);height:50px;min-width:168px;padding:0 18px;border-radius:999px;background:#123f30;color:#fff;align-items:center;justify-content:center;gap:12px;box-shadow:0 8px 26px rgba(5,34,24,.28);font-size:14px}.sheet-toggle b{font-size:12px;padding:3px 8px;border-radius:999px;background:rgba(255,255,255,.16)}
+  .sheet-overlay{display:block;position:fixed;inset:0;z-index:210;background:rgba(7,21,15,.42);opacity:0;pointer-events:none;transition:.2s}.sheet-overlay.on{opacity:1;pointer-events:auto}body.sheet-open{overflow:hidden}
+  body.section-reading .sheet,body.section-writing .sheet{top:auto!important}
+}
+@media(max-width:520px){
+  .topbar-right{gap:6px}.icon-btn{width:38px;padding:0}.icon-btn #themeTxt{display:none}.timer{height:38px;padding:0 9px}.exam-nav-item{min-width:90px}
+  .paper-head h1{font-size:23px}.tag{font-size:10.5px}.section-band h2{font-size:17px}.section-band .meta{max-width:78px}
+  .image-box{padding:6px}.img-wrap img{max-height:520px}
+  .letters{grid-template-columns:repeat(3,1fr)}.reading-example{font-size:15.5px}.writing-open-top{grid-template-columns:86px 72px 1fr}.writing-pic{width:86px;height:82px}.writing-word{font-size:20px}.writing-line{min-width:60px}
+}
+</style>
+<style id="ux-v3-example-results">
+/* ===== Ví dụ nghe: rõ khi làm bài + đủ lớn khi trình chiếu ===== */
+.exam-example{
+  margin:14px 0 18px;padding:18px 20px 17px;border:1px solid #dfebe5;
+  border-radius:16px;background:linear-gradient(180deg,#fffefb 0%,#fbf8f1 100%);
+  box-shadow:0 3px 14px rgba(34,65,53,.045);color:var(--text);
+}
+body.dark .exam-example{background:linear-gradient(180deg,#1d241f 0%,#1b211d 100%);border-color:#39483f}
+.exam-example-head{display:flex;align-items:center;gap:9px;margin-bottom:12px}
+.example-label{display:inline-flex;align-items:center;justify-content:center;padding:5px 12px;border-radius:9px;background:var(--accent);color:#fff;font-size:17px;font-weight:800;line-height:1.2}
+.example-caption{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.03em}
+.example-dialogue{font-size:21px;line-height:1.9;font-weight:500}
+.example-line{display:grid;grid-template-columns:42px 1fr;gap:5px;align-items:start}
+.example-line .speaker{font-weight:800;color:var(--accent-2)}
+.example-statement{padding-left:2px}
+.example-question{display:flex;align-items:flex-start;gap:10px;margin-top:8px;font-weight:700}
+.example-question .qmark{display:inline-grid;place-items:center;min-width:34px;height:30px;padding:0 8px;border-radius:8px;background:var(--accent-soft);color:var(--accent-2);font-size:15px;font-weight:900;margin-top:4px}
+.example-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}
+.example-opt{min-height:48px;display:flex;align-items:center;justify-content:center;padding:9px 12px;border:1.5px solid var(--soft-border);border-radius:12px;background:var(--surface);font-size:19px;font-weight:600;white-space:nowrap}
+.example-opt.is-answer{border-color:#9ed8bc;background:#eef9f3;color:#0c6e49;font-weight:800}
+body.dark .example-opt.is-answer{background:#173a2a;border-color:#347e5d;color:#8ae0b4}
+
+/* ===== Bảng phân tích kết quả ===== */
+.result{padding:26px 28px!important}
+.result-overview{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center}
+.result-title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.result-title-row h2{font-size:25px;margin:0;color:var(--text)}
+.result-status{display:inline-flex;align-items:center;padding:5px 11px;border-radius:999px;background:var(--accent-soft);color:var(--accent-2);font-size:12px;font-weight:800}
+.result-subnote{font-size:13px;color:var(--muted);line-height:1.65;margin-top:8px}
+.result-summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(115px,1fr));gap:10px;margin-top:14px}
+.result-summary-card{border:1px solid var(--soft-border);background:var(--surface-soft);border-radius:13px;padding:11px 12px}
+.result-summary-card .k{font-size:11.5px;color:var(--muted);font-weight:700}
+.result-summary-card .v{font-size:21px;font-weight:850;line-height:1.25;margin-top:3px;color:var(--text)}
+.result-summary-card.good .v{color:var(--ok)}
+.result-summary-card.bad .v{color:var(--no)}
+.result-summary-card.warn .v{color:var(--warn)}
+.result-section{margin-top:22px;padding-top:18px;border-top:1px solid var(--soft-border)}
+.result-section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.result-section-title h3{font-size:17px;margin:0;color:var(--text)}
+.result-section-title span{font-size:11.5px;color:var(--muted)}
+.result-table-wrap{overflow-x:auto;border:1px solid var(--soft-border);border-radius:14px;background:var(--surface)}
+.result-table{width:100%;border-collapse:collapse;min-width:710px;font-size:13px}
+.result-table th{background:var(--surface-soft);color:var(--muted);font-size:11.5px;text-transform:none;letter-spacing:.02em;text-align:left;padding:10px 12px;border-bottom:1px solid var(--soft-border);white-space:nowrap}
+.result-table td{padding:11px 12px;border-bottom:1px solid var(--soft-border);vertical-align:middle;color:var(--text)}
+.result-table tr:last-child td{border-bottom:0}
+.result-table .zh{font-weight:750}
+.result-table .num-good{color:var(--ok);font-weight:850}.result-table .num-bad{color:var(--no);font-weight:850}.result-table .num-muted{color:var(--muted);font-weight:700}
+.acc-cell{min-width:145px}.acc-line{display:flex;align-items:center;gap:9px}.acc-track{height:8px;flex:1;min-width:72px;border-radius:999px;background:#eaf0ed;overflow:hidden}.acc-fill{height:100%;border-radius:inherit;background:var(--accent)}body.dark .acc-track{background:#24372e}
+.review-groups{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.review-box{border:1px solid var(--soft-border);border-radius:14px;background:var(--surface-soft);padding:14px}
+.review-box h4{font-size:13px;margin:0 0 9px;color:var(--text)}
+.review-chips{display:flex;gap:7px;flex-wrap:wrap;min-height:31px}
+.review-chip{min-width:34px;height:32px;padding:0 9px;border:1px solid var(--soft-border);border-radius:9px;background:var(--surface);font-weight:800;font-size:12.5px;color:var(--text)}
+.review-chip.bad{border-color:#efc4c7;background:#fff5f5;color:#bd3944}.review-chip.blank{border-color:#edd7a6;background:#fffaf0;color:#a66b00}.review-chip.open{border-color:#bdd8cb;background:#f4fbf7;color:#267152}
+body.dark .review-chip.bad{background:#382023;border-color:#6c343a;color:#ff9da5}body.dark .review-chip.blank{background:#382e1c;border-color:#6a5426;color:#f6c96b}body.dark .review-chip.open{background:#193128;border-color:#325d49;color:#83d3aa}
+.review-empty{font-size:12.5px;color:var(--muted);padding:4px 0}
+.result-actions-v3{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.retry-exam-btn{border-color:#f0c98d;background:#fff8ec;color:#9a5b00;font-weight:850}.retry-exam-btn:hover{background:#ffefd3;border-color:#e2b265;transform:translateY(-1px)}body.dark .retry-exam-btn{background:#392b16;border-color:#6b5229;color:#ffd79a}
+.teacher-note{margin-top:12px;padding:11px 13px;border-radius:11px;border-left:3px solid var(--accent);background:var(--accent-soft);font-size:12.5px;color:var(--text);line-height:1.65}
+
+
+
+/* ===== Bảng điểm 300 điểm ===== */
+.score-dashboard{margin-top:20px;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(230px,.72fr);gap:18px;align-items:stretch}
+.score-panel,.score-total-card{border:1px solid var(--soft-border);border-radius:18px;background:var(--surface);padding:18px;box-shadow:0 8px 22px rgba(20,65,48,.05)}
+.score-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px}.score-panel-head h3{font-size:18px;margin:0}.score-panel-head p{font-size:11.5px;color:var(--muted);margin:2px 0 0;line-height:1.55;text-align:right}
+.section-score-list{display:grid;gap:15px}.section-score-row{display:grid;grid-template-columns:150px minmax(0,1fr) 84px;gap:13px;align-items:center}.section-score-name{font-weight:850;font-size:13.5px}.section-score-name small{display:block;font-weight:650;color:var(--muted);font-size:10.5px;margin-top:1px}.section-score-track{height:22px;border-radius:999px;background:#edf3f0;overflow:hidden;position:relative}.section-score-fill{height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--accent),var(--jade-300));transition:width .3s ease}.section-score-row.pending .section-score-fill{background:linear-gradient(90deg,#eab65f,#f2cf90)}body.dark .section-score-track{background:#21332a}.section-score-value{text-align:right;font-size:18px;font-weight:900;color:var(--text)}.section-score-value small{font-size:11px;color:var(--muted);font-weight:700}
+.score-total-card{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:250px}.score-ring{--score-p:0%;width:170px;height:170px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--accent) var(--score-p),#e8efeb 0);position:relative}.score-ring::after{content:"";position:absolute;inset:15px;border-radius:50%;background:var(--surface)}body.dark .score-ring{background:conic-gradient(var(--accent) var(--score-p),#26372f 0)}.score-ring-inner{position:relative;z-index:1}.score-ring-number{font-size:40px;font-weight:900;line-height:1;color:var(--text)}.score-ring-den{font-size:12px;color:var(--muted);font-weight:750;margin-top:4px}.score-rate{font-size:14px;font-weight:850;margin-top:14px}.score-state{font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.5}
+.points-table .score-point{font-weight:900;color:var(--accent-2);white-space:nowrap}.points-table .score-max{color:var(--muted);font-size:11px}.result-kpi-main{background:linear-gradient(135deg,var(--accent-soft),var(--surface));border-color:#c6dfd2}.result-kpi-main .v{font-size:26px!important;color:var(--accent-2)!important}
+.manual-score-box{display:flex;align-items:center;justify-content:flex-end;gap:8px}.manual-score-input{width:78px;height:43px;border:1.5px solid var(--soft-border);border-radius:11px;background:var(--surface);color:var(--text);font-size:19px;font-weight:900;text-align:center;outline:none}.manual-score-input:focus{border-color:var(--accent);box-shadow:var(--focus)}.manual-score-input:disabled{opacity:.6;background:var(--surface-soft)}.manual-score-den{font-size:14px;font-weight:800;color:var(--muted)}.manual-quick-scores{display:flex;gap:5px;justify-content:flex-end;flex-wrap:wrap}.manual-quick-btn{min-width:36px;height:30px;padding:0 8px;border:1px solid var(--soft-border);border-radius:8px;background:var(--surface);font-size:11px;font-weight:800;color:var(--muted)}.manual-quick-btn:hover{border-color:var(--accent);color:var(--accent-2)}.manual-quick-btn.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-2)}.manual-grade-card.grade-full{border-color:#9bd5b8;background:#f4fbf7}.manual-grade-card.grade-partial{border-color:#e7cc8a;background:#fffaf0}.manual-grade-card.grade-zero{border-color:#efb8bd;background:#fff6f6}body.dark .manual-grade-card.grade-full{background:#183128}body.dark .manual-grade-card.grade-partial{background:#352c1c}body.dark .manual-grade-card.grade-zero{background:#382023}
+.manual-point-total{font-size:21px!important;color:var(--accent-2)!important}.manual-score-status{font-size:11.5px;font-weight:800;color:var(--muted);text-align:right}.manual-score-status.full{color:var(--ok)}.manual-score-status.partial{color:#a56a00}.manual-score-status.zero{color:var(--no)}
+@media(max-width:900px){.score-dashboard{grid-template-columns:1fr}.score-total-card{min-height:220px}.section-score-row{grid-template-columns:130px minmax(0,1fr) 76px}}
+@media(max-width:560px){.score-panel,.score-total-card{padding:14px;border-radius:15px}.section-score-row{grid-template-columns:1fr 70px;gap:7px 10px}.section-score-name{grid-column:1/-1}.section-score-track{height:17px}.section-score-value{font-size:16px}.score-ring{width:145px;height:145px}.score-ring-number{font-size:34px}.score-panel-head{display:block}.score-panel-head p{text-align:left;margin-top:4px}.manual-score-box{justify-content:flex-start}.manual-quick-scores{justify-content:flex-start}}
+
+/* ===== Chấm tay câu 66–70 ===== */
+.manual-grade-section{scroll-margin-top:150px}
+.manual-grading-list{display:grid;gap:12px}
+.manual-grade-card{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:14px;align-items:stretch;padding:13px;border:1.5px solid var(--soft-border);border-radius:15px;background:var(--surface);transition:.18s ease}
+.manual-grade-card.grade-correct{border-color:#9bd5b8;background:#f4fbf7}.manual-grade-card.grade-wrong{border-color:#efb8bd;background:#fff6f6}
+body.dark .manual-grade-card.grade-correct{background:#183128;border-color:#34785a}body.dark .manual-grade-card.grade-wrong{background:#382023;border-color:#754149}
+.manual-grade-thumb{width:92px;height:78px;object-fit:contain;border-radius:10px;border:1px solid var(--soft-border);background:#fff}
+.manual-grade-main{min-width:0;display:flex;flex-direction:column;gap:7px;justify-content:center}
+.manual-grade-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.manual-grade-q{font-weight:850;color:var(--accent-2);font-size:13px}.manual-grade-word{font-family:var(--zh);font-size:18px;font-weight:800;color:var(--text)}
+.manual-student-answer{font-family:var(--zh);font-size:18px;line-height:1.7;color:var(--text);padding:10px 12px;border-radius:10px;background:var(--surface-soft);border-left:3px solid var(--accent);white-space:normal;overflow-wrap:anywhere}
+.manual-student-answer.blank{color:var(--muted);font-family:var(--vi);font-size:13px;font-style:italic;border-left-color:var(--warn)}
+.manual-reference-answer{margin-top:8px;padding:8px 10px;border-radius:9px;background:var(--surface-soft);border:1px dashed var(--line);font-family:var(--zh);font-size:16px;line-height:1.65;color:var(--text)}
+.manual-reference-answer .ref-label{font-family:var(--vi);font-size:12px;font-weight:800;color:var(--muted);margin-right:6px}
+.manual-grade-side{min-width:210px;display:flex;flex-direction:column;justify-content:center;gap:8px}.manual-grade-status{font-size:11.5px;font-weight:800;color:var(--muted);text-align:right}
+.manual-grade-actions{display:grid;grid-template-columns:1fr 1fr;gap:7px}.grade-btn{min-height:38px;padding:8px 11px;border-radius:10px;border:1.5px solid var(--soft-border);background:var(--surface);font-size:12.5px;font-weight:850;white-space:nowrap}.grade-btn:hover{transform:translateY(-1px)}.grade-btn.good{color:#14724c}.grade-btn.bad{color:#b63b46}.grade-btn.reset{grid-column:1/-1;color:var(--muted);font-weight:700;min-height:32px}.grade-btn.good.active{background:var(--ok);border-color:var(--ok);color:#fff}.grade-btn.bad.active{background:var(--no);border-color:var(--no);color:#fff}.grade-btn.reset.active{background:var(--surface-soft);border-color:var(--muted)}
+.manual-grade-footer{margin-top:14px;padding:13px 14px;border-radius:13px;background:var(--surface-soft);border:1px solid var(--soft-border);display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.manual-grade-summary{display:flex;gap:9px;flex-wrap:wrap}.manual-mini-stat{display:inline-flex;align-items:center;gap:5px;padding:6px 9px;border-radius:9px;background:var(--surface);border:1px solid var(--soft-border);font-size:12px;font-weight:750}.manual-mini-stat b{font-size:14px}.manual-mini-stat.good b{color:var(--ok)}.manual-mini-stat.bad b{color:var(--no)}.manual-mini-stat.pending b{color:var(--warn)}
+.finalize-manual-btn{min-width:245px}.finalize-manual-btn:disabled{opacity:.42;cursor:not-allowed;transform:none}
+.manual-final-note{margin-top:9px;font-size:11.5px;color:var(--muted);line-height:1.6}.manual-final-note strong{color:var(--text)}
+.review-box.manual-review{grid-column:1/-1}
+.result-status.final{background:var(--ok-l);color:var(--ok)}.result-status.pending{background:var(--warn-l);color:#9a6200}
+.result-table .num-wait{color:var(--warn);font-weight:850}.manual-acc-text{font-weight:800;color:var(--muted)}
+@media(max-width:900px){.manual-grade-card{grid-template-columns:74px minmax(0,1fr)}.manual-grade-thumb{width:74px;height:68px}.manual-grade-side{grid-column:1/-1;min-width:0}.manual-grade-status{text-align:left}.manual-grade-actions{grid-template-columns:1fr 1fr 1fr}.grade-btn.reset{grid-column:auto}.finalize-manual-btn{width:100%;min-width:0}}
+@media(max-width:540px){.manual-grade-card{grid-template-columns:62px minmax(0,1fr);gap:10px;padding:10px}.manual-grade-thumb{width:62px;height:58px}.manual-student-answer{font-size:17px;padding:9px 10px}.manual-grade-actions{grid-template-columns:1fr 1fr}.grade-btn.reset{grid-column:1/-1}.manual-grade-footer{padding:11px}.manual-mini-stat{font-size:11.5px}}
+
+body.presentation .example-dialogue{font-size:25px}.presentation .example-opt{font-size:22px;min-height:54px}.presentation .exam-example{padding:22px 24px}
+@media(max-width:800px){
+  .example-dialogue{font-size:18px;line-height:1.75}.example-options{grid-template-columns:1fr}.example-opt{justify-content:flex-start;padding-left:14px;font-size:17px}.exam-example{padding:15px 14px}
+  .result-overview{grid-template-columns:1fr}.score-badge{margin:auto}.result-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.review-groups{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .result{padding:18px 13px!important}.result-title-row h2{font-size:21px}.result-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.result-summary-card .v{font-size:19px}.result-table{font-size:12px;min-width:650px}.example-dialogue{font-size:17px}.example-line{grid-template-columns:36px 1fr}
+}
+</style>
+<style id="transcript-style">
+.transcript-btn{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 12px;border-radius:10px;border:1px solid var(--jade-200);background:var(--card);color:var(--brand-d);font-size:12.5px;font-weight:800;white-space:nowrap;box-shadow:var(--shadow-s)}
+.transcript-btn[hidden]{display:none!important}.transcript-btn:hover{border-color:var(--brand);background:var(--brand-l)}
+.transcript-modal{position:fixed;inset:0;z-index:140;display:none;align-items:center;justify-content:center;padding:20px}.transcript-modal.on{display:flex}.transcript-backdrop{position:absolute;inset:0;background:rgba(6,20,14,.58);backdrop-filter:blur(4px)}
+.transcript-panel{position:relative;width:min(980px,96vw);max-height:min(88vh,980px);display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line2);border-radius:20px;box-shadow:0 28px 80px rgba(0,0,0,.28);overflow:hidden}
+.transcript-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:18px 22px;border-bottom:1px solid var(--line);background:linear-gradient(120deg,var(--brand-l),var(--card))}.transcript-kicker{font-family:var(--zh);font-size:12px;font-weight:800;color:var(--brand-d);letter-spacing:.08em}.transcript-head h2{font-size:22px;margin:2px 0 3px}.transcript-head p{font-size:12.5px;color:var(--ink3)}.transcript-close{width:40px;height:40px;border-radius:11px;border:1px solid var(--line2);background:var(--card);font-size:28px;line-height:1;color:var(--ink2)}
+.transcript-scroll{overflow:auto;padding:22px}.transcript-source{padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--field);margin-bottom:18px}.transcript-source p{font-size:17px;line-height:1.8;margin:2px 0}.transcript-part{border:1px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden;margin-bottom:18px}.transcript-part-title{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;background:var(--brand-l);color:var(--brand-d);font-weight:800}.transcript-part-title .zh{font-size:21px}.transcript-part-title span:last-child{font-size:12px}.transcript-instruction{font-size:17px;line-height:1.8;padding:13px 16px;margin:0;color:var(--ink2);border-bottom:1px solid var(--line)}
+.transcript-example{margin:14px 16px;padding:13px 15px;border-radius:12px;background:#fff8ee;border:1px solid #f1dfbf}.transcript-example-label{display:inline-block;padding:3px 9px;border-radius:7px;background:#f3dcae;color:#80551d;font-size:12px;font-weight:800;margin-bottom:7px}.transcript-example p{font-size:17px;line-height:1.8;margin:3px 0}.transcript-range{font-size:16px;color:var(--brand-d);padding:12px 16px 8px;margin:0}.transcript-q{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;padding:14px 16px;border-top:1px solid var(--line)}.transcript-q:first-of-type{border-top:0}.transcript-num{width:38px;height:38px;border-radius:10px;background:var(--brand-l);color:var(--brand-d);display:grid;place-items:center;font-weight:850;font-size:13px}.transcript-q p{font-size:17px;line-height:1.8;margin:2px 0}.transcript-q .question{margin-top:7px;color:var(--brand-d);font-weight:650}.transcript-q.passage .transcript-num{width:auto;padding:0 7px}.transcript-end{font-size:18px;font-weight:800;text-align:center;padding:18px;color:var(--brand-d)}
+body.transcript-open{overflow:hidden}
+@media(max-width:700px){.transcript-modal{padding:0;align-items:stretch}.transcript-panel{width:100%;max-height:100vh;height:100vh;border-radius:0;border:0}.transcript-head{padding:14px 15px}.transcript-head h2{font-size:19px}.transcript-scroll{padding:12px}.transcript-source p,.transcript-instruction,.transcript-example p,.transcript-q p{font-size:16px}.transcript-q{grid-template-columns:38px minmax(0,1fr);gap:9px;padding:12px}.transcript-num{width:34px;height:34px}.transcript-btn{height:32px;padding:0 10px;font-size:12px}.pl-time{display:none}}
+
+.transcript-page{margin:0 0 18px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:var(--shadow-s)}.transcript-page img{display:block;width:100%;height:auto}.transcript-page figcaption{padding:8px 12px;text-align:center;font-size:12px;color:var(--ink3);background:var(--field)}
+</style>
+<style id="section-submit-pause-style">
+/* ===== Nộp riêng từng phần + khóa khi tạm dừng ===== */
+.section-submit-block{margin:2px 34px 24px;padding:16px 18px;border:1px solid var(--soft-border,var(--line));border-radius:16px;background:linear-gradient(135deg,var(--surface-soft,var(--field)),var(--surface,var(--card)));display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.section-submit-info{min-width:220px;flex:1}.section-submit-info strong{display:block;font-size:15px;color:var(--text,var(--ink));margin-bottom:3px}.section-submit-info span{font-size:12.5px;color:var(--muted,var(--ink3))}.section-submit-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.section-submit-btn{min-width:178px}.section-submit-btn:disabled{opacity:.48;cursor:not-allowed}.section-submit-status{font-size:11.5px;font-weight:800;padding:5px 9px;border-radius:999px;background:var(--surface,var(--card));border:1px solid var(--soft-border,var(--line));color:var(--muted,var(--ink3))}.section-submit-status.ready{color:var(--accent-2,var(--brand-d));border-color:var(--accent,var(--brand));background:var(--accent-soft,var(--brand-l))}.section-submit-status.done{color:var(--ok);background:var(--ok-l);border-color:transparent}
+.section-result-card{display:none;margin:0 34px 24px;padding:18px;border:1px solid var(--soft-border,var(--line));border-radius:18px;background:var(--surface,var(--card));box-shadow:var(--shadow-s)}.section-result-card.on{display:block}.section-result-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}.section-result-head h3{font-size:19px;margin:0}.section-score-big{font-size:30px;font-weight:900;color:var(--accent-2,var(--brand-d))}.section-score-big small{font-size:13px;color:var(--muted,var(--ink3));font-weight:700}.section-result-stats{display:grid;grid-template-columns:repeat(4,minmax(100px,1fr));gap:9px}.section-result-stat{padding:11px 12px;border-radius:12px;background:var(--surface-soft,var(--field));border:1px solid var(--soft-border,var(--line))}.section-result-stat .k{font-size:11px;color:var(--muted,var(--ink3));font-weight:700}.section-result-stat .v{font-size:19px;font-weight:900;margin-top:2px}.section-result-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.section-result-note{margin-top:12px;padding:10px 12px;border-left:3px solid var(--accent,var(--brand));border-radius:0 10px 10px 0;background:var(--surface-soft,var(--field));font-size:12.5px;line-height:1.65;color:var(--muted,var(--ink2))}
+.section-mini-submit{margin-top:13px;padding-top:12px;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.section-mini-btn{min-height:38px;padding:8px 5px;border:1px solid var(--line2);border-radius:10px;background:var(--card);font-size:11px;font-weight:800;color:var(--brand-d)}.section-mini-btn:disabled{opacity:.45}.section-mini-btn.done{background:var(--ok-l);color:var(--ok);border-color:transparent}
+.pause-overlay{position:fixed;inset:0;z-index:220;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(8,25,18,.62);backdrop-filter:blur(8px)}.pause-overlay.on{display:flex}.pause-card{width:min(520px,92vw);padding:28px 24px;border-radius:22px;background:var(--card);border:1px solid var(--line2);box-shadow:0 28px 80px rgba(0,0,0,.32);text-align:center}.pause-icon{width:66px;height:66px;margin:0 auto 13px;border-radius:18px;display:grid;place-items:center;background:var(--brand-l);color:var(--brand-d);font-size:30px;font-weight:900}.pause-card h2{font-size:23px;margin-bottom:7px}.pause-card p{font-size:13.5px;color:var(--ink2);line-height:1.7}.pause-card .resume-hint{margin-top:13px;font-size:12px;color:var(--ink3);font-weight:700}.pause-resume-btn{margin-top:18px;min-width:220px;padding:12px 20px;border-radius:13px;background:var(--brand);color:#fff;font-weight:800;font-size:15px;box-shadow:0 6px 18px rgba(var(--jade-rgb),.28);transition:.15s}.pause-resume-btn:hover{background:var(--brand-d);transform:translateY(-1px)}.pause-resume-btn:focus-visible{outline:3px solid var(--jade-300);outline-offset:3px}.exam-paused .sheet-toggle{pointer-events:none;opacity:.6}.exam-paused .topbar .icon-btn:not(#btnPause),.exam-paused .timer{opacity:.62}.exam-paused *{caret-color:transparent}
+.student-manual-note{margin:12px 0 14px;padding:12px 14px;border:1px solid var(--jade-200);border-radius:12px;background:var(--brand-l);color:var(--brand-d);font-size:13px;line-height:1.7}.student-manual-note strong{color:var(--brand-d)}
+.section-result-card .manual-grading-list{margin-top:12px}.section-result-card .manual-grade-footer{margin-top:12px}.section-result-card .teacher-note{margin-top:10px}
+@media(max-width:800px){.section-submit-block,.section-result-card{margin-left:12px;margin-right:12px}.section-result-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.section-submit-btn{width:100%;min-width:0}.section-submit-actions{width:100%}.section-mini-submit{grid-template-columns:1fr}.section-mini-btn{font-size:12px}.pause-card{padding:22px 17px}.pause-card h2{font-size:20px}}
+</style>
+
+<style id="hsk3-final-adjustments">
+.listening-match-group{margin:16px 0 24px;padding:16px;border:1px solid var(--soft-border);border-radius:16px;background:var(--surface)}
+.match-group-head{display:flex;align-items:center;gap:10px;margin:0 0 14px;padding-bottom:11px;border-bottom:1px solid var(--soft-border);font-weight:800;color:var(--text)}
+.match-group-head .zh{font-size:19px}.match-group-head>span:last-child{font-size:12px;color:var(--muted);font-weight:700}
+.exam-image-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:16px}
+.exam-choice-image{position:relative;min-width:0;margin:0;border:1px solid var(--soft-border);border-radius:13px;overflow:hidden;background:#fff;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center}
+.exam-choice-image img{display:block;width:100%;height:100%;object-fit:cover}
+.exam-choice-label{position:absolute;z-index:2;left:9px;top:9px;width:32px;height:32px;border-radius:9px;display:grid;place-items:center;background:rgba(255,255,255,.94);color:#153c2d;border:1px solid rgba(15,72,50,.14);font-size:16px;font-weight:900;box-shadow:0 2px 7px rgba(0,0,0,.08)}
+body.dark .exam-choice-image{background:#17221d}body.dark .exam-choice-label{background:rgba(19,33,27,.94);color:#e9f5ef;border-color:#385247}
+.letter.choice-used,.opt.choice-used{opacity:.32;filter:grayscale(.7);cursor:not-allowed!important;box-shadow:none!important}
+.opt.choice-used:hover,.letter.choice-used:hover{border-color:var(--soft-border)!important;background:var(--surface)!important}
+@media(max-width:760px){.exam-image-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.listening-match-group{padding:11px}.exam-choice-label{left:7px;top:7px;width:29px;height:29px}}
+@media(max-width:430px){.exam-image-grid{grid-template-columns:1fr}.exam-choice-image{aspect-ratio:4/3}}
+</style>
+
+
+<style id="hsk3-operation-ux-v3">
+/* ===== Tối ưu thao tác theo bản Đề số 3 đã chốt ===== */
+
+/* Câu 1–10: GIỮ NGUYÊN lưới tranh; chỉ cuộn ngang phần câu hỏi bên dưới. */
+.listening-match-group .qzone{
+  display:flex!important;
+  gap:12px!important;
+  max-height:none!important;
+  overflow-x:auto!important;
+  overflow-y:hidden!important;
+  scroll-snap-type:x mandatory;
+  scroll-behavior:smooth;
+  overscroll-behavior-x:contain;
+  scrollbar-gutter:auto;
+  padding:2px 2px 12px!important;
+  margin:0!important;
+}
+.listening-match-group .qzone .q{
+  flex:0 0 100%;
+  min-width:100%;
+  scroll-snap-align:start;
+  scroll-snap-stop:always;
+}
+.listening-match-group .qzone::-webkit-scrollbar{height:11px;width:auto}
+.listening-match-group .qzone::-webkit-scrollbar-track{background:var(--surface-soft);border-radius:999px}
+.listening-match-group .qzone::-webkit-scrollbar-thumb{background:#b9cec4;border-radius:999px;border:2px solid var(--surface-soft);background-clip:padding-box}
+body.dark .listening-match-group .qzone::-webkit-scrollbar-thumb{background:#426256;border-color:var(--surface-soft)}
+
+/* Câu 31–45: giữ 选项 cố định, chỉ cuộn vùng câu hỏi. */
+.fixed-task-split{
+  display:grid;
+  grid-template-columns:minmax(340px,.92fr) minmax(0,1.08fr);
+  gap:18px;
+  align-items:start;
+  margin:12px 0 6px;
+}
+.fixed-task-reference{
+  min-width:0;
+  position:sticky;
+  top:calc(var(--topbar-h) + var(--nav-h) + 14px);
+  align-self:start;
+  max-height:calc(100vh - var(--topbar-h) - var(--nav-h) - 30px);
+  overflow:auto;
+  scrollbar-gutter:stable;
+  border-radius:14px;
+}
+.fixed-task-reference .reading-bank,
+.fixed-task-reference .reading-example{margin-top:0}
+.fixed-task-questions{
+  margin:0!important;
+  max-height:calc(100vh - var(--topbar-h) - var(--nav-h) - 30px);
+  overflow-y:auto;
+  overflow-x:hidden;
+  overscroll-behavior:contain;
+  scrollbar-gutter:stable;
+  padding:2px 8px 2px 2px!important;
+  align-content:start;
+}
+.fixed-task-questions .q:last-child{margin-bottom:2px}
+.fixed-task-questions::-webkit-scrollbar,.fixed-task-reference::-webkit-scrollbar{width:9px}
+.fixed-task-questions::-webkit-scrollbar-thumb,.fixed-task-reference::-webkit-scrollbar-thumb{background:#c8d8d0;border-radius:999px;border:2px solid transparent;background-clip:padding-box}
+body.dark .fixed-task-questions::-webkit-scrollbar-thumb,body.dark .fixed-task-reference::-webkit-scrollbar-thumb{background:#365247;background-clip:padding-box}
+
+/* Câu 31–40: 选项 mỗi dòng một lựa chọn. */
+.reading-fixed-group[data-fixed-group="31-35"] .reading-bank-grid,
+.reading-fixed-group[data-fixed-group="36-40"] .reading-bank-grid{
+  grid-template-columns:1fr!important;
+  gap:8px;
+}
+.reading-fixed-group[data-fixed-group="31-35"] .reading-bank-item,
+.reading-fixed-group[data-fixed-group="36-40"] .reading-bank-item{width:100%}
+
+/* Câu 41–45: A–F xếp thành cột dọc. */
+.reading-fixed-group[data-fixed-group="41-45"] .reading-word-bank{
+  display:grid!important;
+  grid-template-columns:1fr!important;
+  gap:8px!important;
+}
+.reading-fixed-group[data-fixed-group="41-45"] .reading-word-chip{
+  display:block;
+  width:100%;
+  margin:0;
+  text-align:left;
+}
+
+/* Đáp án đã dùng ở câu ví dụ: làm mờ và ghi chú rõ. */
+.example-used-choice{opacity:.46;position:relative}
+.reading-bank-item.example-used-choice::after{
+  content:"Ví dụ";
+  margin-left:auto;
+  flex:none;
+  padding:2px 7px;
+  border-radius:999px;
+  background:var(--surface-soft);
+  border:1px solid var(--soft-border);
+  color:var(--muted);
+  font-family:var(--vi);
+  font-size:10px;
+  font-weight:800;
+}
+.reading-word-chip.example-used-choice::after{
+  content:" · Ví dụ";
+  font-family:var(--vi);
+  font-size:10px;
+  font-weight:800;
+}
+
+@media(max-width:1180px){
+  .fixed-task-split{grid-template-columns:minmax(300px,.9fr) minmax(0,1.1fr);gap:14px}
+}
+@media(max-width:900px){
+  .fixed-task-split{grid-template-columns:1fr;gap:10px}
+  .fixed-task-reference{
+    position:sticky;
+    top:calc(var(--topbar-h) + var(--nav-h));
+    z-index:35;
+    max-height:34vh;
+    padding:5px;
+    background:var(--surface);
+    border:1px solid var(--soft-border);
+    box-shadow:0 5px 16px rgba(23,63,48,.08);
+  }
+  .fixed-task-questions{max-height:48vh}
+}
+</style>
+
+</head>
+<body>
+<style>
+/* === TrangHSK branding (logo + hotline) - thêm bởi yêu cầu, không đổi bố cục/JS/audio gốc === */
+.thsk-logo-badge{position:fixed;top:8px;left:8px;z-index:250;width:40px;height:40px;border-radius:50%;overflow:hidden;box-shadow:0 3px 10px rgba(15,42,31,.28);border:2px solid #fff;background:#fff}
+.thsk-logo-badge img{width:100%;height:100%;object-fit:cover;display:block}
+.thsk-hotline{position:fixed;left:0;right:0;bottom:0;z-index:250;display:flex;align-items:center;justify-content:center;gap:8px;
+  background:linear-gradient(90deg,var(--jade-600,#0e8f5a),var(--jade-500,#16a86b));
+  color:#fff;font-weight:700;font-size:13px;padding:8px 14px;box-shadow:0 -2px 10px rgba(15,42,31,.2)}
+.thsk-hotline img{width:22px;height:22px;border-radius:50%;background:#fff;flex:none}
+.thsk-hotline a{color:#fff;text-decoration:none;letter-spacing:.3px}
+.thsk-hotline a:hover{text-decoration:underline}
+body.presenting .thsk-hotline,body.presenting .thsk-logo-badge{display:none}
+body{padding-bottom:44px}
+@media(max-width:480px){.thsk-hotline{font-size:11.5px;padding:7px 10px;gap:6px}.thsk-logo-badge{width:32px;height:32px;top:6px;left:6px}}
+</style>
+<div class="thsk-logo-badge"><img src="HSK3_DE_01_files/img01.webp" alt="TrangHSK"></div>
+<div class="thsk-hotline"><img src="HSK3_DE_01_files/img02.webp" alt="TrangHSK"><span>📞 Hotline TrangHSK: <a href="tel:0369190381">0369 190 381</a></span></div>
+
+<header class="topbar">
+<div class="brand"><span class="brand-badge">3</span><span class="brand-text">HSK 3 · Đề thi mô phỏng</span></div>
+<div class="topbar-right">
+<button class="icon-btn present-btn" id="btnPresent" title="Chế độ trình chiếu / dạy online">▣ <span class="present-txt">Trình chiếu</span></button>
+<button class="icon-btn" id="btnTheme" title="Chuyển sáng / tối">🌙 <span id="themeTxt">Tối</span></button>
+<div class="timer" id="timer"><span class="dot"></span><span id="timeTxt">83:00</span></div>
+<button class="icon-btn" id="btnPause" title="Tạm dừng / tiếp tục">⏸</button>
+</div>
+</header>
+<nav aria-label="Điều hướng phần thi" class="exam-nav" id="examNav">
+<a class="exam-nav-item active" data-section="listening" href="#sec-listening"><span class="nav-ico">🎧</span><span class="nav-main zh">听力</span><span class="nav-sub">1–30</span></a>
+<a class="exam-nav-item" data-section="reading" href="#sec-reading"><span class="nav-ico">📖</span><span class="nav-main zh">阅读</span><span class="nav-sub">31–60</span></a>
+<a class="exam-nav-item" data-section="writing" href="#sec-writing"><span class="nav-ico">✍️</span><span class="nav-main zh">书写</span><span class="nav-sub">61–70</span></a>
+</nav>
+<div class="player" id="player">
+<span class="pl-title">🎧 HSK 3.0 · 全真模拟试卷 1</span>
+<button class="pl-btn" id="plPlay" title="Phát / tạm dừng">▶</button>
+<button class="pl-btn sm" id="plBack" title="Lùi 5 giây">-5</button>
+<div class="pl-track" id="plTrack"><div class="pl-fill" id="plFill"></div></div>
+<span class="pl-time" id="plTime">0:00 / 0:00</span>
+<button class="pl-rate" id="plRate" title="Tốc độ phát">1.0×</button>
+<button class="transcript-btn" hidden="" id="btnTranscript" type="button">📄 Bản chép lời</button>
+<audio id="audio" preload="metadata" src="HSK3_DE_01_files/audio1.mp3"></audio>
+</div>
+<div class="layout">
+<div>
+<div class="result" id="result"></div>
+<main class="paper">
+<div class="paper-head">
+<span class="tag"><span class="zh">模拟测试</span></span>
+<h1><span class="zh">HSK 3.0（三级）全真模拟试卷 1</span></h1>
+<div class="vn">ĐỀ THI ONLINE HSK 3 · ĐỀ SỐ 1</div>
+<div class="paper-sub"><span class="zh">共 70 题</span> · 3 phần · khoảng 83 phút</div>
+<nav class="quick-nav">
+<a href="#part1">第一部分</a>
+<a href="#part2">第二部分</a>
+<a href="#part3">第三部分</a>
+<a href="#sec-reading">阅读</a>
+<a href="#sec-writing">书写</a>
+</nav>
+</div>
+<section class="notice notice-static">
+<div class="notice-title zh">注意</div>
+<div class="notice-body zh">
+<ol>
+<li>HSK（三级）分三部分，共 70 题：
+              <ol>
+<li>听力（30 题，约 23 分钟）</li>
+<li>阅读（30 题，30 分钟）</li>
+<li>书写（10 题，20 分钟）</li>
+</ol>
+</li>
+<li>听力结束后，有 5 分钟填写答题卡。</li>
+<li>全部考试约 83 分钟（含考生填写个人信息时间 5 分钟）。</li>
+</ol>
+</div>
+</section>
+<section class="section-band" id="sec-listening">
+<div class="num">1</div><div><h2>听力 · NGHE HIỂU</h2></div><div class="meta">Câu 1–30<br/>≈ 23 phút</div>
+</section>
+<div class="section-intro"><div class="guide"><span class="zh">请听录音，选择正确答案。</span></div></div>
+<div class="part" id="part1">
+<div class="part-card">
+<div class="part-title"><h3>第一部分</h3><div class="meta">第 1～10 题</div></div>
+<div class="part-guide"><span class="zh">例如：男：喂，请问张经理在吗？ 女：他正在开会，您半个小时以后再打，好吗？（D）</span></div>
+<section class="listening-match-group" aria-label="Câu 1 đến 5"><div class="match-group-head"><span class="zh">第 1～5 题</span><span>Câu 1–5</span></div><div class="exam-image-grid"><figure class="exam-choice-image"><span class="exam-choice-label">A</span><img alt="Bộ tranh câu 1 đến 5 - A" src="HSK3_DE_01_files/img03.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">B</span><img alt="Bộ tranh câu 1 đến 5 - B" src="HSK3_DE_01_files/img04.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">C</span><img alt="Bộ tranh câu 1 đến 5 - C" src="HSK3_DE_01_files/img05.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">D</span><img alt="Bộ tranh câu 1 đến 5 - D" src="HSK3_DE_01_files/img06.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">E</span><img alt="Bộ tranh câu 1 đến 5 - E" src="HSK3_DE_01_files/img07.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">F</span><img alt="Bộ tranh câu 1 đến 5 - F" src="HSK3_DE_01_files/img08.webp"/></figure></div><div class="qzone" id="q1to5"></div></section><section class="listening-match-group" aria-label="Câu 6 đến 10"><div class="match-group-head"><span class="zh">第 6～10 题</span><span>Câu 6–10</span></div><div class="exam-image-grid"><figure class="exam-choice-image"><span class="exam-choice-label">A</span><img alt="Bộ tranh câu 6 đến 10 - A" src="HSK3_DE_01_files/img09.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">B</span><img alt="Bộ tranh câu 6 đến 10 - B" src="HSK3_DE_01_files/img10.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">C</span><img alt="Bộ tranh câu 6 đến 10 - C" src="HSK3_DE_01_files/img11.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">D</span><img alt="Bộ tranh câu 6 đến 10 - D" src="HSK3_DE_01_files/img12.webp"/></figure><figure class="exam-choice-image"><span class="exam-choice-label">E</span><img alt="Bộ tranh câu 6 đến 10 - E" src="HSK3_DE_01_files/img13.webp"/></figure></div><div class="qzone" id="q6to10"></div></section>
+</div>
+</div>
+<div class="part" id="part2">
+<div class="part-card">
+<div class="part-title"><h3>第二部分</h3><div class="meta">第 11～20 题</div></div>
+<div aria-label="Ví dụ phần nghe câu 11 đến 20" class="exam-example">
+<div class="exam-example-head"><span class="example-label zh">例如</span><span class="example-caption">Ví dụ</span></div>
+<div class="example-dialogue zh">
+<div class="example-line"><span class="speaker">女：</span><span>你最近在忙什么？</span></div>
+<div class="example-line"><span class="speaker">男：</span><span>我奶奶住院了，我每天下班就去医院照顾她。</span></div>
+<div class="example-question"><span class="qmark">问</span><span>男的奶奶怎么了？</span></div>
+</div>
+<div class="example-options zh">
+<span class="example-opt is-answer">A　住院了 <b>✓</b></span>
+<span class="example-opt">B　变胖了</span>
+<span class="example-opt">C　太累了</span>
+</div></div>
+<div class="qzone" id="q11to20"></div>
+</div>
+</div>
+<div class="part" id="part3">
+<div class="part-card">
+<div class="part-title"><h3>第三部分</h3><div class="meta">第 21～30 题</div></div>
+<div aria-label="Ví dụ phần nghe câu 21 đến 30" class="exam-example">
+<div class="exam-example-head"><span class="example-label zh">例如</span><span class="example-caption">Ví dụ</span></div>
+<div class="example-dialogue zh">
+<div class="example-statement">这里的夏天没那么热，春天和秋天很凉快，冬天也不太冷，一年四季都很舒服。</div>
+<div class="example-question"><span class="qmark">问</span><span>那里秋季的天气怎么样？</span></div>
+</div>
+<div class="example-options zh">
+<span class="example-opt is-answer">A　凉快 <b>✓</b></span>
+<span class="example-opt">B　刮大风</span>
+<span class="example-opt">C　晴天少</span>
+</div></div>
+<div class="qzone" id="q21to30"></div>
+</div>
+</div>
+<div class="section-submit-block" data-section-block="listening">
+<div class="section-submit-info"><strong>Nộp riêng phần Nghe</strong><span>Chỉ có thể nộp khi đã trả lời đủ câu 1–30.</span></div>
+<div class="section-submit-actions"><span class="section-submit-status" data-section-status="listening">0/30 câu</span><button class="btn primary section-submit-btn" data-section-submit="listening" disabled="" type="button">Nộp phần Nghe</button></div>
+</div>
+<div class="section-result-card" id="sectionResult-listening"></div>
+<section class="section-band" id="sec-reading">
+<div class="num">2</div><div><h2>阅读 · ĐỌC HIỂU</h2></div><div class="meta">Câu 31–60<br/>30 phút</div>
+</section>
+<div class="section-intro"><div class="guide"><span class="zh">请阅读并完成第 31～60 题。</span></div></div>
+<div class="reading-part" id="reading-part1a">
+<div class="part-card">
+<div class="part-title"><h3>第一部分</h3><div class="meta">第 31～35 题</div></div>
+<div class="fixed-task-split reading-fixed-group" data-fixed-group="31-35">
+<div class="fixed-task-reference"><div class="reading-bank">
+<div class="reading-bank-title">选项</div>
+<div class="reading-bank-grid"><div class="reading-bank-item"><span class="ll">A</span><span class="txt">太好了，谢谢！</span></div><div class="reading-bank-item"><span class="ll">B</span><span class="txt">已经做完了，放在书包里了。</span></div><div class="reading-bank-item"><span class="ll">C</span><span class="txt">不，我更想在家看书。</span></div><div class="reading-bank-item example-used-choice"><span class="ll">D</span><span class="txt">经理怎么不在办公室？</span></div><div class="reading-bank-item"><span class="ll">E</span><span class="txt">因为那里的衣服又便宜又好看。</span></div><div class="reading-bank-item"><span class="ll">F</span><span class="txt">没问题，我下午要跟他见面。</span></div></div>
+</div>
+<div class="reading-example">例如：他休假了，你有事可以给他发邮件。 <span class="ans">D</span></div>
+</div>
+<div class="qzone fixed-task-questions" id="reading31to35"></div>
+</div>
+</div>
+</div>
+<div class="reading-part" id="reading-part1b">
+<div class="part-card">
+<div class="part-title"><h3>第一部分</h3><div class="meta">第 36～40 题</div></div>
+<div class="fixed-task-split reading-fixed-group" data-fixed-group="36-40">
+<div class="fixed-task-reference"><div class="reading-bank">
+<div class="reading-bank-title">选项</div>
+<div class="reading-bank-grid"><div class="reading-bank-item"><span class="ll">A</span><span class="txt">我觉得爬楼梯可以锻炼身体。</span></div><div class="reading-bank-item"><span class="ll">B</span><span class="txt">他是我们公司新来的经理，很年轻。</span></div><div class="reading-bank-item"><span class="ll">C</span><span class="txt">我去图书馆复习了，准备明天的考试。</span></div><div class="reading-bank-item"><span class="ll">D</span><span class="txt">冰箱里还有牛奶和鸡蛋。</span></div><div class="reading-bank-item"><span class="ll">E</span><span class="txt">你可以查一下手机地图，或者问问旁边的人。</span></div></div>
+</div>
+</div>
+<div class="qzone fixed-task-questions" id="reading36to40"></div>
+</div>
+</div>
+</div>
+<div class="reading-part" id="reading-part2a">
+<div class="part-card">
+<div class="part-title"><h3>第二部分</h3><div class="meta">第 41～45 题</div></div>
+<div class="fixed-task-split reading-fixed-group" data-fixed-group="41-45">
+<div class="fixed-task-reference"><div class="reading-bank">
+<div class="reading-bank-title">选词填空</div>
+<div class="reading-word-bank"><span class="reading-word-chip example-used-choice">A　地方</span><span class="reading-word-chip">B　遇到</span><span class="reading-word-chip">C　健康</span><span class="reading-word-chip">D　检查</span><span class="reading-word-chip">E　结束</span><span class="reading-word-chip">F　坚持</span></div>
+</div>
+<div class="reading-example">例如：洗手间（ A ）小，放不下那么大的洗衣机。</div>
+</div>
+<div class="qzone fixed-task-questions" id="reading41to45"></div>
+</div>
+</div>
+</div>
+<div class="reading-part" id="reading-part2b">
+<div class="part-card">
+<div class="part-title"><h3>第二部分</h3><div class="meta">第 46～50 题</div></div>
+<div class="reading-bank">
+<div class="reading-bank-title">选词填空</div>
+<div class="reading-word-bank"><span class="reading-word-chip">A　方便</span><span class="reading-word-chip example-used-choice">B　一块儿</span><span class="reading-word-chip">C　复习</span><span class="reading-word-chip">D　担心</span><span class="reading-word-chip">E　感冒</span><span class="reading-word-chip">F　舒服</span></div>
+</div>
+<div class="reading-example">例如：A：我去洗个澡，然后跟你们（ B ）聊天儿。<br/>B：好，快去吧。</div>
+<div class="qzone" id="reading46to50"></div>
+</div>
+</div>
+<div class="reading-part" id="reading-part3">
+<div class="part-card">
+<div class="part-title"><h3>第三部分</h3><div class="meta">第 51～60 题</div></div>
+<div class="part-guide"><span class="zh">阅读短文，选择正确答案。</span> </div>
+<div class="reading-subpart-label">第 51～56 题</div>
+<div class="qzone" id="reading51to56"></div>
+<div class="reading-subpart-label">第 57～58 题</div>
+<div class="reading-passage">我们下个月9号就考完试了，我打算和朋友一起去北京旅游。飞机票有点儿贵，所以我们准备坐高铁去。北京有很多有名的公园，也有很多有名的大学，我们打算都去看看。当然，我们还要尝一下好吃的北京菜。</div>
+<div class="qzone" id="reading57to58"></div>
+<div class="reading-subpart-label">第 59～60 题</div>
+<div class="reading-passage">好的生活习惯对身体健康很重要。每天早点儿睡觉，多吃水果和蔬菜，少吃甜的东西，经常运动，这些都是好习惯。我爸爸就是这样，他每天早上六点就起床去公园跑步。虽然我也想去，但是六点起床太难了！</div>
+<div class="qzone" id="reading59to60"></div>
+</div>
+</div>
+<div class="section-submit-block" data-section-block="reading">
+<div class="section-submit-info"><strong>Nộp riêng phần Đọc</strong><span>Chỉ có thể nộp khi đã trả lời đủ câu 31–60.</span></div>
+<div class="section-submit-actions"><span class="section-submit-status" data-section-status="reading">0/30 câu</span><button class="btn primary section-submit-btn" data-section-submit="reading" disabled="" type="button">Nộp phần Đọc</button></div>
+</div>
+<div class="section-result-card" id="sectionResult-reading"></div>
+<section class="section-band" id="sec-writing">
+<div class="num">3</div><div><h2>书写 · VIẾT</h2></div><div class="meta">Câu 61–70<br/>20 phút</div>
+</section>
+<div class="section-intro"><div class="guide"><span class="zh">请在空格里输入答案。</span></div></div>
+<div class="writing-part" id="writing-part1">
+<div class="writing-card">
+<div class="writing-card-head"><h3>第一部分 · 第 1～5 题</h3><div class="meta">第 61～65 题</div></div>
+<div class="writing-example">例如：她们出发了，咱们（ <b>也</b> ）打出租车吧。</div>
+<div class="writing-char-list" id="writing61to65"></div>
+</div>
+</div>
+<div class="writing-part" id="writing-part2">
+<div class="writing-card">
+<div class="writing-card-head"><h3>第二部分 · 第 6～10 题</h3><div class="meta">第 66～70 题</div></div>
+<div class="writing-example">例如：<b>羽毛球</b> → 她每周末都去打羽毛球。</div>
+<div class="writing-open-list" id="writing66to70"></div>
+</div>
+</div>
+<div class="student-manual-note"><strong>📸 Lưu ý cho học sinh:</strong> câu 66–70 cần giáo viên chấm tay. Sau khi nộp phần Viết hoặc nộp toàn bài, hãy <strong>chụp màn hình phần trả lời câu 66–70</strong> và gửi cho giáo viên để được chấm điểm.</div>
+<div class="section-submit-block" data-section-block="writing">
+<div class="section-submit-info"><strong>Nộp riêng phần Viết</strong><span>Chỉ có thể nộp khi đã điền đủ câu 61–70. Câu 66–70 sẽ chờ giáo viên chấm tối đa 15 điểm/câu.</span></div>
+<div class="section-submit-actions"><span class="section-submit-status" data-section-status="writing">0/10 câu</span><button class="btn primary section-submit-btn" data-section-submit="writing" disabled="" type="button">Nộp phần Viết</button></div>
+</div>
+<div class="section-result-card" id="sectionResult-writing"></div>
+<footer><span class="zh">HSK 3.0（三级）全真模拟试卷 1</span></footer>
+<div class="thsk-footer-brand" style="display:flex;align-items:center;justify-content:center;gap:10px;padding:16px 20px 64px;text-align:center;flex-wrap:wrap">
+  <img src="HSK3_DE_01_files/img14.webp" alt="TrangHSK" style="width:34px;height:34px;border-radius:50%;box-shadow:0 2px 6px rgba(15,42,31,.18)">
+  <div style="font-size:12.5px;color:var(--ink3,#7f9a8d)">
+    <b style="color:var(--brand-d,#0e8f5a)">TrangHSK</b> · 中文 · Chinese Learning &nbsp;—&nbsp; Hotline: <a href="tel:0369190381" style="color:var(--brand-d,#0e8f5a);font-weight:700;text-decoration:none">0369 190 381</a>
+  </div>
+</div>
+
+</main>
+</div>
+<aside class="sheet">
+<div class="sheet-head"><div><h3>答题卡</h3><span class="cnt">共计 70 题</span></div><button aria-label="Đóng phiếu trả lời" class="sheet-close" id="sheetClose">×</button></div>
+<div class="sheet-body">
+<div class="progress"><div><div class="big" id="progTxt">0/70</div><div class="lbl"><span class="zh">进度</span> · Tiến độ</div></div><div class="lbl" id="doneLabel">Đã làm 0 câu</div></div>
+<div class="pbar"><div class="pbar-fill" id="pbarFill"></div></div>
+<div class="grid-scroll" id="answerGrid"></div>
+<div aria-label="Nộp riêng từng phần" class="section-mini-submit">
+<button class="section-mini-btn" data-section-submit="listening" disabled="" type="button">Nghe 0/30</button>
+<button class="section-mini-btn" data-section-submit="reading" disabled="" type="button">Đọc 0/30</button>
+<button class="section-mini-btn" data-section-submit="writing" disabled="" type="button">Viết 0/10</button>
+</div>
+<div class="sheet-actions">
+<button class="btn" id="btnReview">Tới câu chưa làm</button>
+<button class="btn primary" disabled="" id="btnSubmit"><span class="zh">提交</span> · Nộp bài</button>
+</div>
+<div class="hint" id="submitHint">Cần hoàn thành đủ 70/70 câu mới có thể nộp toàn bài.</div>
+</div>
+</aside>
+</div>
+<div class="sheet-overlay" id="sheetOverlay"></div>
+<button aria-label="Mở phiếu trả lời" class="sheet-toggle" id="sheetToggle"><span class="zh">答题卡</span><b id="sheetToggleCount">0/70</b></button>
+<div aria-hidden="true" class="pause-overlay" id="pauseOverlay">
+<div aria-labelledby="pauseTitle" aria-modal="true" class="pause-card" role="dialog">
+<div class="pause-icon">Ⅱ</div>
+<h2 id="pauseTitle">Bài thi đang tạm dừng</h2>
+<p>Thời gian đã dừng và toàn bộ câu hỏi, ô nhập đáp án, phiếu trả lời và file nghe đều bị khóa. Bạn không thể tiếp tục làm bài trong lúc tạm dừng.</p>
+<button class="pause-resume-btn" id="btnResumeExam" type="button">▶ Tiếp tục làm bài</button>
+<div class="resume-hint">Thời gian sẽ tiếp tục chạy ngay khi bạn bấm nút trên.</div>
+</div>
+</div>
+<div aria-hidden="true" class="transcript-modal" id="transcriptModal">
+<div class="transcript-backdrop" data-close-transcript=""></div>
+<section aria-labelledby="transcriptTitle" aria-modal="true" class="transcript-panel" role="dialog">
+<header class="transcript-head">
+<div>
+<div class="transcript-kicker">听力文字稿</div>
+<h2 id="transcriptTitle">Bản chép lời phần nghe</h2>
+<p>HSK 三级模拟试卷 · 听力 1–30</p>
+</div>
+<button aria-label="Đóng bản chép lời" class="transcript-close" id="btnTranscriptClose" type="button">×</button>
+</header>
+<div class="transcript-scroll"><div class="transcript-source"><p class="zh"><b>中文水平考试 HSK 3.0（三级）全真模拟试卷 1 — 听力文本</b></p><p class="zh">大家好！欢迎参加 HSK（三级）考试。</p><p class="zh">大家好！欢迎参加 HSK（三级）考试。</p><p class="zh">大家好！欢迎参加 HSK（三级）考试。</p><p class="zh">HSK（三级）听力考试分三部分，共 30 题。</p><p class="zh">请大家注意，听力考试现在开始。</p></div><section class="transcript-part"><div class="transcript-part-title"><span class="zh">第一部分</span><span>第 1～10 题</span></div><p class="transcript-instruction zh">第 1 到 10 题，听对话，选择最匹配的图片。每题听两次。</p><div class="transcript-example"><span class="transcript-example-label">例如</span><p class="zh">男：喂，请问张经理在吗？</p><p class="zh">女：他正在开会，您半个小时以后再打，好吗？</p></div><p class="transcript-range zh"><b>现在开始第 1 题：</b></p><div class="transcript-q"><div class="transcript-num">1</div><div><p class="zh">男：您今天觉得舒服一点儿了吗？</p><p class="zh">女：还是有一点儿头疼，可以再帮我检查一下吗？</p></div></div><div class="transcript-q"><div class="transcript-num">2</div><div><p class="zh">女：你今天好像不太开心，怎么了？</p><p class="zh">男：我丢了银行卡，现在心里很难过。</p></div></div><div class="transcript-q"><div class="transcript-num">3</div><div><p class="zh">男：你想吃什么？我帮你点。</p><p class="zh">女：我想吃米饭和鱼。</p></div></div><div class="transcript-q"><div class="transcript-num">4</div><div><p class="zh">男：你最近怎么总是很晚才睡觉？</p><p class="zh">女：我在准备考试，每天都要复习到很晚。</p></div></div><div class="transcript-q"><div class="transcript-num">5</div><div><p class="zh">女：你觉得这条裙子怎么样？</p><p class="zh">男：我觉得很好看，你穿上试试吧。</p></div></div><div class="transcript-q"><div class="transcript-num">6</div><div><p class="zh">女：你站在那儿，我帮你拍张照片。</p><p class="zh">男：好的，这儿太漂亮了！</p></div></div><div class="transcript-q"><div class="transcript-num">7</div><div><p class="zh">男：这个礼物我选了很久，希望你会喜欢。</p><p class="zh">女：你总是知道我喜欢什么。</p></div></div><div class="transcript-q"><div class="transcript-num">8</div><div><p class="zh">女：听说你对体育很感兴趣？</p><p class="zh">男：是啊，我周末经常跟朋友一起打网球。</p></div></div><div class="transcript-q"><div class="transcript-num">9</div><div><p class="zh">女：这本书你看了这么久，还没看完吗？</p><p class="zh">男：这本书很有意思，我想再读一遍。</p></div></div><div class="transcript-q"><div class="transcript-num">10</div><div><p class="zh">男：你能帮我一下吗？</p><p class="zh">女：没问题，我们一起把这些书搬到三楼去吧。</p></div></div></section><section class="transcript-part"><div class="transcript-part-title"><span class="zh">第二部分</span><span>第 11～20 题</span></div><p class="transcript-instruction zh">第 11 到 15 题，听对话，选择正确答案。每题听两次。</p><div class="transcript-example"><span class="transcript-example-label">例如</span><p class="zh">女：你最近在忙什么？</p><p class="zh">男：我奶奶住院了，我每天一下班就去医院照顾她。</p><p class="zh">问：男的的奶奶怎么了？</p></div><p class="transcript-range zh"><b>现在开始第 11 题：</b></p><div class="transcript-q"><div class="transcript-num">11</div><div><p class="zh">女：周末你想去游泳还是打羽毛球？</p><p class="zh">男：最近我左腿有点儿疼，医生说最好不要运动。</p><p class="zh">问：男的周末可能做什么？</p></div></div><div class="transcript-q"><div class="transcript-num">12</div><div><p class="zh">男：你买的这件新衣服真好看，是在网上买的吗？</p><p class="zh">女：不是，是在商场里买的。</p><p class="zh">问：女的在哪儿买的新衣服？</p></div></div><div class="transcript-q"><div class="transcript-num">13</div><div><p class="zh">女：明天就要考试了，我心里有点儿害怕。</p><p class="zh">男：别担心，你已经复习得很好了。</p><p class="zh">问：关于女的，可以知道什么？</p></div></div><div class="transcript-q"><div class="transcript-num">14</div><div><p class="zh">女：这张照片是你什么时候拍的？</p><p class="zh">男：是我去年夏天去海边旅游时拍的。</p><p class="zh">问：照片是什么时候拍的？</p></div></div><div class="transcript-q"><div class="transcript-num">15</div><div><p class="zh">男：你今天怎么自己做饭了？</p><p class="zh">女：我妈妈今天工作很忙，要很晚才回家。</p><p class="zh">问：关于女的的妈妈，可以知道什么？</p></div></div><p class="transcript-instruction zh">第 16 到 20 题，听对话，选择正确答案。每题听两次。</p><div class="transcript-example"><span class="transcript-example-label">例如</span><p class="zh">女：你在读什么书？</p><p class="zh">男：《上下五千年》，是介绍中国历史的，很有意思。</p><p class="zh">女：能不能借我看看？</p><p class="zh">男：那你要等几天，我还没看完呢。</p><p class="zh">问：关于那本书，可以知道什么？</p></div><p class="transcript-range zh"><b>现在开始第 16 题：</b></p><div class="transcript-q"><div class="transcript-num">16</div><div><p class="zh">女：你今天下午有时间吗？我们一起去超市吧。</p><p class="zh">男：不行，我下午四点要去机场接一个朋友。</p><p class="zh">女：你朋友的飞机几点到？</p><p class="zh">男：四点半，我还要跟他一起吃晚饭。</p><p class="zh">问：男的今天下午要做什么？</p></div></div><div class="transcript-q"><div class="transcript-num">17</div><div><p class="zh">男：你今天是骑自行车来的吗？</p><p class="zh">女：我的自行车坏了，不能骑了。</p><p class="zh">男：那你怎么来的？坐地铁吗？</p><p class="zh">女：不是，我爸爸开车送我来的。</p><p class="zh">问：女的今天是怎么来学校的？</p></div></div><div class="transcript-q"><div class="transcript-num">18</div><div><p class="zh">男：你最近好像瘦了，生病了吗？</p><p class="zh">女：没有，我最近工作太忙了，常常忘记了吃饭。</p><p class="zh">男：这样对身体不好，再忙也要好好吃饭。</p><p class="zh">女：谢谢，我知道了。</p><p class="zh">问：女的为什么瘦了？</p></div></div><div class="transcript-q"><div class="transcript-num">19</div><div><p class="zh">女：听说你换工作了？</p><p class="zh">男：对，现在的公司离我家很近。</p><p class="zh">女：那太好了，每天可以多睡一会儿了。</p><p class="zh">男：是的，而且新公司的同事也很热情。</p><p class="zh">问：关于男的的新工作，可以知道什么？</p></div></div><div class="transcript-q"><div class="transcript-num">20</div><div><p class="zh">男：这本书你看了快一个月了。</p><p class="zh">女：因为里面有很多字我不认识，所以读得比较慢。</p><p class="zh">男：需要我帮你吗？我读完了。</p><p class="zh">女：太好了，有些句子我不太明白是什么意思。</p><p class="zh">问：关于这本书，可以知道什么？</p></div></div></section><section class="transcript-part"><div class="transcript-part-title"><span class="zh">第三部分</span><span>第 21～30 题</span></div><p class="transcript-instruction zh">第 21 到 30 题，听一段话，选择正确答案。每题听两次。</p><div class="transcript-example"><span class="transcript-example-label">例如</span><p class="zh">这里的夏天没那么热，春天和秋天很凉快，冬天也不太冷，一年四季都很舒服。</p><p class="zh">问：那里秋季的天气怎么样？</p></div><p class="transcript-range zh"><b>现在开始第 21 题：</b></p><div class="transcript-q"><div class="transcript-num">21</div><div><p class="zh">我周末一般不在家学习，我喜欢去图书馆，很方便，而且那里也安静。</p><p class="zh">问：说话人周末喜欢在哪儿学习？</p></div></div><div class="transcript-q"><div class="transcript-num">22</div><div><p class="zh">下个月我打算坐高铁去上海，坐高铁比坐飞机便宜，也很舒服。</p><p class="zh">问：说话人下个月怎么去上海？</p></div></div><div class="transcript-q"><div class="transcript-num">23</div><div><p class="zh">王老师不但是我们的中文老师，也是我们的朋友，她对学生总是很热情。</p><p class="zh">问：王老师对学生怎么样？</p></div></div><div class="transcript-q"><div class="transcript-num">24</div><div><p class="zh">李阿姨的儿子上初中了，他这个学期的考试成绩不错，李阿姨和丈夫都很开心。</p><p class="zh">问：关于李阿姨，可以知道什么？</p></div></div><div class="transcript-q"><div class="transcript-num">25</div><div><p class="zh">这个季节有时候会突然下雨，所以我出门的时候习惯带上雨衣或者雨伞。</p><p class="zh">问：说话人现在出门时习惯带什么？</p></div></div><div class="transcript-q"><div class="transcript-num">26</div><div><p class="zh">今天晚上我想去看电影，但是票已经卖完了，所以还是在家休息吧，明天再去看。</p><p class="zh">问：说话人今天晚上可能做什么？</p></div></div><div class="transcript-q"><div class="transcript-num">27</div><div><p class="zh">我中午经常点外卖。今天我用手机点了一碗牛肉面，外卖员说大概半小时能送到我家。</p><p class="zh">问：说话人点的牛肉面大概什么时候能送到？</p></div></div><div class="transcript-q"><div class="transcript-num">28</div><div><p class="zh">这个季节很凉快，我常带孩子出去玩，这个周末我们准备去动物园看大熊猫。</p><p class="zh">问：说话人这个周末要去哪儿？</p></div></div><div class="transcript-q passage"><div class="transcript-num">29—30.</div><div><p class="zh">我姐姐是医生，她在大学的医院工作。她平时工作很忙，但也很喜欢旅游，每年放假都会去不同的城市。她还喜欢画画儿，有空儿的时候会到外面画风景。最近，她打算去北京参加一个画画儿比赛，希望能认识更多喜欢画画儿的朋友。</p><p class="zh">29. 问：说话人姐姐做什么工作？</p><p class="zh">30. 问：说话人姐姐喜欢什么？</p></div></div></section><div class="transcript-end zh">听力考试现在结束。</div></div>
+</section>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+const LISTENING = {"letters1":["A","B","C","D","E","F"],"letters2":["A","B","C","D","E"],"part2":[{"num":11,"options":[{"L":"A","txt":"去游泳"},{"L":"B","txt":"去打羽毛球"},{"L":"C","txt":"在家休息"}],"correct":"C"},{"num":12,"options":[{"L":"A","txt":"网上"},{"L":"B","txt":"商场"},{"L":"C","txt":"超市"}],"correct":"B"},{"num":13,"options":[{"L":"A","txt":"很担心考试"},{"L":"B","txt":"复习得不好"},{"L":"C","txt":"没准备考试"}],"correct":"A"},{"num":14,"options":[{"L":"A","txt":"去年夏天"},{"L":"B","txt":"今年夏天"},{"L":"C","txt":"去年秋天"}],"correct":"A"},{"num":15,"options":[{"L":"A","txt":"生病了"},{"L":"B","txt":"爱做饭"},{"L":"C","txt":"工作忙"}],"correct":"C"},{"num":16,"options":[{"L":"A","txt":"去超市"},{"L":"B","txt":"坐飞机"},{"L":"C","txt":"接朋友"}],"correct":"C"},{"num":17,"options":[{"L":"A","txt":"坐地铁"},{"L":"B","txt":"骑自行车"},{"L":"C","txt":"坐爸爸的车"}],"correct":"C"},{"num":18,"options":[{"L":"A","txt":"生病了"},{"L":"B","txt":"工作忙"},{"L":"C","txt":"常运动"}],"correct":"B"},{"num":19,"options":[{"L":"A","txt":"可以早睡觉"},{"L":"B","txt":"同事不热情"},{"L":"C","txt":"公司离家近"}],"correct":"C"},{"num":20,"options":[{"L":"A","txt":"女的读完了"},{"L":"B","txt":"女的觉得难"},{"L":"C","txt":"男的很喜欢"}],"correct":"B"}],"part3":[{"num":21,"options":[{"L":"A","txt":"家"},{"L":"B","txt":"咖啡馆"},{"L":"C","txt":"图书馆"}],"correct":"C"},{"num":22,"options":[{"L":"A","txt":"坐飞机"},{"L":"B","txt":"坐地铁"},{"L":"C","txt":"坐高铁"}],"correct":"C"},{"num":23,"options":[{"L":"A","txt":"很热情"},{"L":"B","txt":"很满意"},{"L":"C","txt":"不关心"}],"correct":"A"},{"num":24,"options":[{"L":"A","txt":"很担心"},{"L":"B","txt":"很高兴"},{"L":"C","txt":"不放心"}],"correct":"B"},{"num":25,"options":[{"L":"A","txt":"雨伞"},{"L":"B","txt":"上衣"},{"L":"C","txt":"手机"}],"correct":"A"},{"num":26,"options":[{"L":"A","txt":"看电影"},{"L":"B","txt":"去买票"},{"L":"C","txt":"在家休息"}],"correct":"C"},{"num":27,"options":[{"L":"A","txt":"十五分钟后"},{"L":"B","txt":"三十分钟后"},{"L":"C","txt":"六十分钟后"}],"correct":"B"},{"num":28,"options":[{"L":"A","txt":"公园"},{"L":"B","txt":"校园"},{"L":"C","txt":"动物园"}],"correct":"C"},{"num":29,"options":[{"L":"A","txt":"画家"},{"L":"B","txt":"医生"},{"L":"C","txt":"大学老师"}],"correct":"B"},{"num":30,"options":[{"L":"A","txt":"体育电影"},{"L":"B","txt":"手机游戏"},{"L":"C","txt":"旅游和画画儿"}],"correct":"C"}],"answers":{"1":"C","2":"A","3":"F","4":"E","5":"B","6":"E","7":"A","8":"D","9":"C","10":"B","11":"C","12":"B","13":"A","14":"A","15":"C","16":"C","17":"C","18":"B","19":"C","20":"B","21":"C","22":"C","23":"A","24":"B","25":"A","26":"C","27":"B","28":"C","29":"B","30":"C"}};
+
+const READING = {"group1":{"letters":["A","B","C","D","E","F"],"questions":[{"num":31,"prompt":"昨天的作业你做完了吗？"},{"num":32,"prompt":"你为什么喜欢去那家商店买衣服？"},{"num":33,"prompt":"这是我用过的汉语词典，送给你吧。"},{"num":34,"prompt":"你能帮我把这本书给李老师吗？"},{"num":35,"prompt":"周末你想去爬山吗？"}]},"group2":{"letters":["A","B","C","D","E"],"questions":[{"num":36,"prompt":"电梯快下来了，你不等了吗？"},{"num":37,"prompt":"我找不到去火车站的路了。"},{"num":38,"prompt":"今天下午你去哪儿了？打电话也没接。"},{"num":39,"prompt":"家里还有什么吃的吗？我有点儿饿。"},{"num":40,"prompt":"照片上站在你旁边的那个人是谁？"}]},"group3":{"letters":["A","B","C","D","E","F"],"questions":[{"num":41,"prompt":"他每天都运动，所以身体很（　　）。"},{"num":42,"prompt":"这次考试的时间比较长，下午5点才（　　）。"},{"num":43,"prompt":"我刚学中文的时候（　　）过一些问题，后来都解决了。"},{"num":44,"prompt":"我最近看东西有点儿不太清楚，要去（　　）一下眼睛。"},{"num":45,"prompt":"你如果每天都（　　）学习，你的中文一定会越来越好。"}]},"group4":{"words":["方便","一块儿","复习","担心","感冒","舒服"],"officialLetters":{"46":"A","47":"C","48":"D","49":"E","50":"F"},"questions":[{"num":46,"prompt":"A：坐地铁去机场很（　　）。\nB：对，又快又准时。"},{"num":47,"prompt":"A：明天就要考试了，你怎么还在看电视？\nB：我先休息一会儿，再（　　）功课。"},{"num":48,"prompt":"A：这几天降温了，你要多穿一点儿。\nB：好的，谢谢，你别（　　）我。"},{"num":49,"prompt":"A：你今天怎么没去上班？\nB：我（　　）了，医生让我在家休息。"},{"num":50,"prompt":"A：这把椅子坐着怎么样？\nB：挺（　　）的，我想买一把放在书房。"}]},"group5":[{"num":51,"passage":"我在网上看了两件衬衫，红色的更好看，但是蓝色的便宜一些，我最后买了蓝色的。","question":"说话人为什么买了蓝色的衬衫？","options":[["A","更便宜"],["B","更好看"],["C","更舒服"]]},{"num":52,"passage":"我每天早上先骑自行车到地铁站，然后坐地铁去公司。","question":"说话人早上怎么去地铁站？","options":[["A","走路"],["B","骑车"],["C","开车"]]},{"num":53,"passage":"虽然这家饭馆有点儿贵，但是因为菜做得特别好吃，所以客人还是很多。","question":"这家饭馆的菜：","options":[["A","很便宜"],["B","不好吃"],["C","有点儿贵"]]},{"num":54,"passage":"哥哥打算下个月搬家，新房子附近有公园，去超市也很方便，他非常满意。","question":"哥哥为什么对新房子很满意？","options":[["A","很干净"],["B","很便宜"],["C","附近有公园"]]},{"num":55,"passage":"我知道下午的会议很重要，但是我感冒了，头很疼，得去看医生。","question":"说话人下午可能：","options":[["A","去医院"],["B","去开会"],["C","去考试"]]},{"num":56,"passage":"周末我们班要开一个晚会，时间、地点我已经发到大家的电子邮箱里了，欢迎你们都来参加。","question":"晚会的时间、地点在哪里可以看到？","options":[["A","邮件里"],["B","黑板上"],["C","电话里"]]}],"group6":[{"num":57,"question":"说话人下个月要去北京做什么？","options":[["A","考试"],["B","旅游"],["C","上大学"]]},{"num":58,"question":"说话人打算怎么去北京？","options":[["A","坐高铁"],["B","坐飞机"],["C","坐汽车"]]}],"group7":[{"num":59,"question":"说话人主要想告诉我们什么？","options":[["A","怎样能学好中文"],["B","健康的生活习惯"],["C","爸爸的工作很忙"]]},{"num":60,"question":"关于说话人的爸爸，可以知道什么？","options":[["A","经常运动"],["B","起床很难"],["C","爱吃甜的"]]}],"answers":{"31":"B","32":"E","33":"A","34":"F","35":"C","36":"A","37":"E","38":"C","39":"D","40":"B","41":"C","42":"E","43":"B","44":"D","45":"F","46":"方便","47":"复习","48":"担心","49":"感冒","50":"舒服","51":"A","52":"B","53":"C","54":"C","55":"A","56":"A","57":"B","58":"A","59":"B","60":"A"}};
+
+const WRITING = {"part1":[{"num":61,"sub":1,"before":"她买了一辆红色的","pinyin":"qì","after":"车，很好看。","answer":"汽"},{"num":62,"sub":2,"before":"明天我要去","pinyin":"tú","after":"书馆借一本书。","answer":"图"},{"num":63,"sub":3,"before":"太热了，咱们把","pinyin":"kōng","after":"调打开吧。","answer":"空"},{"num":64,"sub":4,"before":"今天午饭我只吃了一","pinyin":"fāng","after":"便面。","answer":"方"},{"num":65,"sub":5,"before":"这是我送给你的生日","pinyin":"lǐ","after":"物。","answer":"礼"}],"part2":[{"num":66,"sub":6,"word":"电话","sample":"她在给妈妈打电话。","img":"HSK3_DE_01_files/img15.webp"},{"num":67,"sub":7,"word":"聊天儿","sample":"她正在和朋友聊天儿。","img":"HSK3_DE_01_files/img16.webp"},{"num":68,"sub":8,"word":"环境","sample":"这家咖啡店的环境很好。","img":"HSK3_DE_01_files/img17.webp"},{"num":69,"sub":9,"word":"洗衣机","sample":"妈妈每个周末都用洗衣机洗衣服。","img":"HSK3_DE_01_files/img18.webp"},{"num":70,"sub":10,"word":"放学","sample":"放学后，男孩儿自己回家。","img":"HSK3_DE_01_files/img19.webp"}]};
+
+const ANSWERS = {};
+const MANUAL_GRADES = {66:null,67:null,68:null,69:null,70:null};
+const SECTION_META = {listening:{from:1,to:30,label:'Nghe',max:30},reading:{from:31,to:60,label:'Đọc',max:30},writing:{from:61,to:70,label:'Viết',max:10}};
+const SECTION_SUBMITTED = {listening:false,reading:false,writing:false};
+const SECTION_RESULTS = {listening:null,reading:null,writing:null};
+let EXAM_PAUSED = false;
+let RESULT_BASE = null;
+let manualFinalized = false;
+let currentQ = 1, graded = false, readingGraded = false, examSubmitted = false, timerLeft = 83*60, timerRun = true;
+function $(s){return document.querySelector(s)}
+function fmtClock(sec){const m=Math.floor(sec/60),s=sec%60; return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')}
+function fmtShort(sec){const m=Math.floor(sec/60),s=Math.floor(sec%60); return m+':'+String(s).padStart(2,'0')}
+function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('on');clearTimeout(t._id);t._id=setTimeout(()=>t.classList.remove('on'),1800)}
+function setCurrent(n){currentQ=n; document.querySelectorAll('.q').forEach(el=>el.classList.toggle('active', Number(el.dataset.num)===n)); document.querySelectorAll('.cell').forEach(el=>el.classList.toggle('here', Number(el.dataset.num)===n)); const el=document.getElementById('q-'+n); if(el) el.scrollIntoView({behavior:'smooth',block:'center'})}
+function getSectionProgress(key){
+  const m=SECTION_META[key]; let done=0; const missing=[];
+  for(let n=m.from;n<=m.to;n++){if(String(ANSWERS[n]||'').trim()) done++; else missing.push(n)}
+  return {done,total:m.max,missing,complete:done===m.max};
+}
+function sectionKeyForQuestion(n){return n<=30?'listening':n<=60?'reading':'writing'}
+function isQuestionLocked(n){return examSubmitted || SECTION_SUBMITTED[sectionKeyForQuestion(n)] || EXAM_PAUSED}
+function syncSubmitControls(totalDone){
+  const map={listening:'Nghe',reading:'Đọc',writing:'Viết'};
+  Object.keys(SECTION_META).forEach(key=>{
+    const p=getSectionProgress(key), submitted=SECTION_SUBMITTED[key];
+    document.querySelectorAll('[data-section-submit="'+key+'"]').forEach(btn=>{
+      btn.disabled=!p.complete || submitted || examSubmitted || EXAM_PAUSED;
+      btn.classList.toggle('done',submitted);
+      btn.textContent=submitted?'✓ Đã nộp '+map[key]:(map[key]+' '+p.done+'/'+p.total);
+      if(btn.classList.contains('section-submit-btn')) btn.textContent=submitted?'✓ Đã nộp phần '+map[key]:'Nộp phần '+map[key];
+    });
+    document.querySelectorAll('[data-section-status="'+key+'"]').forEach(st=>{
+      st.textContent=submitted?'Đã nộp · '+p.done+'/'+p.total:p.done+'/'+p.total+' câu';
+      st.classList.toggle('ready',p.complete&&!submitted); st.classList.toggle('done',submitted);
+    });
+  });
+  const submit=$('#btnSubmit');
+  if(submit) submit.disabled=totalDone<70 || examSubmitted || EXAM_PAUSED;
+  const hint=$('#submitHint');
+  if(hint){
+    if(examSubmitted) hint.textContent='Bài đã được nộp.';
+    else if(totalDone<70) hint.textContent='Cần hoàn thành đủ 70/70 câu mới có thể nộp toàn bài · còn '+(70-totalDone)+' câu.';
+    else hint.textContent='Đã hoàn thành 70/70 câu · có thể nộp toàn bài.';
+  }
+}
+function updateProgress(){
+  let done=0; for(let i=1;i<=70;i++) if(String(ANSWERS[i]||'').trim()) done++;
+  $('#progTxt').textContent = done + '/70';
+  $('#pbarFill').style.width = (done/70*100)+'%';
+  $('#doneLabel').textContent = done===70 ? 'Đã làm đủ 70 câu' : 'Đã làm '+done+' câu';
+  document.querySelectorAll('.cell').forEach(cell=>{
+    const n=Number(cell.dataset.num);
+    cell.classList.toggle('done', !!String(ANSWERS[n]||'').trim() && n<=70 && !examSubmitted && !SECTION_SUBMITTED[sectionKeyForQuestion(n)]);
+  });
+  syncSubmitControls(done);
+}
+
+const UNIQUE_CHOICE_GROUPS = [
+  {from:1,to:5,reserved:['D']},
+  {from:6,to:10,reserved:[]},
+  {from:31,to:35,reserved:['D']},
+  {from:36,to:40,reserved:[]},
+  {from:41,to:45,reserved:['A']},
+  {from:46,to:50,reserved:['一块儿']}
+];
+function uniqueChoiceGroup(num){ return UNIQUE_CHOICE_GROUPS.find(g=>num>=g.from&&num<=g.to)||null; }
+function uniqueValueTaken(num,val){
+  const g=uniqueChoiceGroup(num); if(!g) return false;
+  if((g.reserved||[]).includes(String(val))) return true;
+  for(let n=g.from;n<=g.to;n++){
+    if(n!==num && String(ANSWERS[n]||'')===String(val)) return true;
+  }
+  return false;
+}
+function refreshUniqueChoiceGroup(num){
+  const g=uniqueChoiceGroup(num); if(!g) return;
+  for(let n=g.from;n<=g.to;n++){
+    const q=document.getElementById('q-'+n); if(!q) continue;
+    q.querySelectorAll('.letter,.opt').forEach(btn=>{
+      const selectedHere=String(ANSWERS[n]||'')===String(btn.dataset.val||'');
+      const usedElsewhere=!selectedHere && uniqueValueTaken(n,btn.dataset.val);
+      const baseLocked=isQuestionLocked(n) || graded || (n>=31&&n<=60&&readingGraded);
+      btn.disabled=baseLocked || usedElsewhere;
+      btn.classList.toggle('choice-used',usedElsewhere);
+      if(usedElsewhere) btn.title='Đáp án này đã được dùng ở câu khác trong cùng nhóm';
+      else btn.removeAttribute('title');
+    });
+  }
+}
+function refreshAllUniqueChoices(){ UNIQUE_CHOICE_GROUPS.forEach(g=>refreshUniqueChoiceGroup(g.from)); }
+function commitUniqueChoice(num,val,btn,selector){
+  if(isQuestionLocked(num) || graded || (num>=31&&num<=60&&readingGraded)) return;
+  if(uniqueValueTaken(num,val)){ toast('Đáp án này đã được chọn ở câu khác trong cùng nhóm.'); return; }
+  ANSWERS[num]=val;
+  const q=btn.closest('.q');
+  if(q) q.querySelectorAll(selector).forEach(b=>b.classList.toggle('pick',String(b.dataset.val)===String(val)));
+  updateProgress();
+  refreshUniqueChoiceGroup(num);
+}
+
+function pickLetter(num, val, btn){ if(uniqueChoiceGroup(num)) return commitUniqueChoice(num,val,btn,'.letter'); if(graded || isQuestionLocked(num)) return; ANSWERS[num]=val; const wrap=btn.parentElement; wrap.querySelectorAll('.letter').forEach(b=>b.classList.toggle('pick', b.dataset.val===val)); updateProgress(); }
+function pickOption(num, val, btn){ if(graded || isQuestionLocked(num)) return; ANSWERS[num]=val; const q=btn.closest('.q'); q.querySelectorAll('.opt').forEach(o=>o.classList.toggle('pick', o.dataset.val===val)); updateProgress(); }
+function makeLetterQ(num, letters){ const q=document.createElement('article'); q.className='q'; q.id='q-'+num; q.dataset.num=num; q.innerHTML = '<div class="q-head"><span class="q-no">'+num+'</span><div class="q-title">第 '+num+' 题</div></div><div class="letters"></div>'; const lettersWrap = q.querySelector('.letters'); letters.forEach(L=>{ const b=document.createElement('button'); b.className='letter'; b.dataset.val=L; b.textContent=L; b.addEventListener('click',()=>pickLetter(num,L,b)); lettersWrap.appendChild(b); }); q.addEventListener('click',()=>setCurrent(num)); return q; }
+function makeOptionQ(item){ const q=document.createElement('article'); q.className='q'; q.id='q-'+item.num; q.dataset.num=item.num; q.innerHTML = '<div class="q-head"><span class="q-no">'+item.num+'</span><div class="q-title">第 '+item.num+' 题</div></div><div class="opts"></div>'; const opts=q.querySelector('.opts'); item.options.forEach(opt=>{ const b=document.createElement('button'); b.className='opt'; b.dataset.val=opt.L; b.innerHTML='<span class="L">'+opt.L+'</span><span class="txt">'+opt.txt+'</span>'; b.addEventListener('click',()=>pickOption(item.num,opt.L,b)); opts.appendChild(b); }); q.addEventListener('click',()=>setCurrent(item.num)); return q; }
+function buildListening(){ const a=$('#q1to5'); for(let i=1;i<=5;i++) a.appendChild(makeLetterQ(i, LISTENING.letters1)); const b=$('#q6to10'); for(let i=6;i<=10;i++) b.appendChild(makeLetterQ(i, LISTENING.letters2)); const c=$('#q11to20'); LISTENING.part2.forEach(item=>c.appendChild(makeOptionQ(item))); const d=$('#q21to30'); LISTENING.part3.forEach(item=>d.appendChild(makeOptionQ(item))); }
+
+function makeReadingQ(item, letters){
+  const q=document.createElement('article'); q.className='q reading-q'; q.id='q-'+item.num; q.dataset.num=item.num;
+  q.innerHTML='<div class="q-head"><span class="q-no">'+item.num+'</span><div class="q-title">第 '+item.num+' 题</div></div><div class="q-prompt">'+item.prompt+'</div><div class="letters"></div>';
+  const wrap=q.querySelector('.letters');
+  letters.forEach(L=>{ const b=document.createElement('button'); b.className='letter'; b.dataset.val=L; b.textContent=L; b.addEventListener('click',()=>pickReading(item.num,L,b)); wrap.appendChild(b); });
+  q.addEventListener('click',()=>setCurrent(item.num)); return q;
+}
+function makeReadingWordQ(item, words){
+  const q=document.createElement('article'); q.className='q reading-q'; q.id='q-'+item.num; q.dataset.num=item.num;
+  q.innerHTML='<div class="q-head"><span class="q-no">'+item.num+'</span><div class="q-title">第 '+item.num+' 题</div></div><div class="reading-dialogue">'+item.prompt+'</div><div class="opts"></div>';
+  const wrap=q.querySelector('.opts');
+  words.forEach((word,idx)=>{ if(!word) return; const b=document.createElement('button'); b.className='opt'; b.dataset.val=word; b.dataset.optionLabel=String.fromCharCode(65+idx); b.innerHTML='<span class="L">'+b.dataset.optionLabel+'</span><span class="txt">'+word+'</span>'; b.addEventListener('click',()=>pickReadingOption(item.num,word,b)); wrap.appendChild(b); });
+  q.addEventListener('click',()=>setCurrent(item.num)); return q;
+}
+function makeReadingOptionQ(item){
+  const q=document.createElement('article'); q.className='q reading-q'; q.id='q-'+item.num; q.dataset.num=item.num;
+  let html='<div class="q-head"><span class="q-no">'+item.num+'</span><div class="q-title">第 '+item.num+' 题</div></div>';
+  if(item.passage) html+='<div class="reading-passage">'+item.passage+'</div>';
+  html+='<div class="reading-question">★ '+item.question+'</div><div class="opts"></div>';
+  q.innerHTML=html;
+  const wrap=q.querySelector('.opts');
+  item.options.forEach(opt=>{ const b=document.createElement('button'); b.className='opt'; b.dataset.val=opt[0]; b.innerHTML='<span class="L">'+opt[0]+'</span><span class="txt">'+opt[1]+'</span>'; b.addEventListener('click',()=>pickReadingOption(item.num,opt[0],b)); wrap.appendChild(b); });
+  q.addEventListener('click',()=>setCurrent(item.num)); return q;
+}
+function pickReading(num,val,btn){
+  if(uniqueChoiceGroup(num)) return commitUniqueChoice(num,val,btn,'.letter');
+  if(readingGraded || isQuestionLocked(num)) return; ANSWERS[num]=val; const wrap=btn.parentElement;
+  wrap.querySelectorAll('.letter').forEach(b=>b.classList.toggle('pick',b.dataset.val===val)); updateProgress();
+}
+function pickReadingOption(num,val,btn){
+  if(uniqueChoiceGroup(num)) return commitUniqueChoice(num,val,btn,'.opt');
+  if(readingGraded || isQuestionLocked(num)) return; ANSWERS[num]=val; const q=btn.closest('.q');
+  q.querySelectorAll('.opt').forEach(b=>b.classList.toggle('pick',b.dataset.val===val)); updateProgress();
+}
+function buildReading(){
+  const a=$('#reading31to35'); READING.group1.questions.forEach(q=>a.appendChild(makeReadingQ(q,READING.group1.letters)));
+  const b=$('#reading36to40'); READING.group2.questions.forEach(q=>b.appendChild(makeReadingQ(q,READING.group2.letters)));
+  const c=$('#reading41to45'); READING.group3.questions.forEach(q=>c.appendChild(makeReadingQ(q,READING.group3.letters)));
+  const d=$('#reading46to50'); READING.group4.questions.forEach(q=>d.appendChild(makeReadingWordQ(q,READING.group4.words)));
+  const e=$('#reading51to56'); READING.group5.forEach(q=>e.appendChild(makeReadingOptionQ(q)));
+  const f=$('#reading57to58'); READING.group6.forEach(q=>f.appendChild(makeReadingOptionQ(q)));
+  const g=$('#reading59to60'); READING.group7.forEach(q=>g.appendChild(makeReadingOptionQ(q)));
+}
+function writeAnswer(num,val){
+  if(isQuestionLocked(num)) return;
+  const v=String(val||'').trim();
+  if(v) ANSWERS[num]=v; else delete ANSWERS[num];
+  updateProgress();
+}
+function makeWritingCharQ(item){
+  const q=document.createElement('article'); q.className='writing-q q'; q.id='q-'+item.num; q.dataset.num=item.num;
+  q.innerHTML='<div class="writing-char-line"><span class="mini-no">'+item.num+' · 小题'+item.sub+'</span><span>'+item.before+'</span><input class="write-char" type="text" maxlength="2" inputmode="text" autocomplete="off" aria-label="Câu '+item.num+'"><span class="pinyin-hint">（'+item.pinyin+'）</span><span>'+item.after+'</span></div>';
+  const input=q.querySelector('.write-char');
+  input.addEventListener('input',()=>writeAnswer(item.num,input.value));
+  input.addEventListener('focus',()=>setCurrent(item.num));
+  q.addEventListener('click',()=>setCurrent(item.num));
+  return q;
+}
+function makeWritingOpenQ(item){
+  const q=document.createElement('article'); q.className='writing-open-q q'; q.id='q-'+item.num; q.dataset.num=item.num;
+  q.innerHTML='<div class="q-head"><span class="q-no">'+item.num+'</span><div class="q-title">小题 '+item.sub+'</div></div><div class="writing-open-top"><img class="writing-pic" src="'+item.img+'" alt="Câu '+item.num+'"><div class="writing-word">'+item.word+'</div><div class="writing-line"></div></div><textarea class="write-sentence" maxlength="300" placeholder="请在此处作答" aria-label="Câu '+item.num+'"></textarea>';
+  const ta=q.querySelector('.write-sentence');
+  ta.addEventListener('input',()=>writeAnswer(item.num,ta.value));
+  ta.addEventListener('focus',()=>setCurrent(item.num));
+  q.addEventListener('click',()=>setCurrent(item.num));
+  return q;
+}
+function buildWriting(){
+  const a=$('#writing61to65'); WRITING.part1.forEach(item=>a.appendChild(makeWritingCharQ(item)));
+  const b=$('#writing66to70'); WRITING.part2.forEach(item=>b.appendChild(makeWritingOpenQ(item)));
+}
+function buildPlaceholders(id, fromN, toN){ const wrap=$(id); for(let n=fromN;n<=toN;n++){ const d=document.createElement('article'); d.className='qstub'; d.innerHTML='<div class="q-head"><span class="q-no">'+n+'</span><div class="q-title">Câu '+n+' · <span class="zh">待补充</span></div></div><div class="slot">PLACEHOLDER</div>'; wrap.appendChild(d); } }
+function buildAnswerGrid(){
+  const host=$('#answerGrid');
+  const sections=[['听力 第一部分',1,10],['听力 第二部分',11,20],['听力 第三部分',21,30],['阅读 第一部分',31,40],['阅读 第二部分',41,50],['阅读 第三部分',51,60],['书写',61,70]];
+  sections.forEach(sec=>{
+    const title=document.createElement('div'); title.className='gsec'; title.textContent=sec[0]; host.appendChild(title);
+    const grid=document.createElement('div'); grid.className='grid';
+    for(let n=sec[1]; n<=sec[2]; n++){
+      const c=document.createElement('button'); c.className='cell'; c.dataset.num=n; c.textContent=n;
+      c.addEventListener('click',()=>setCurrent(n)); grid.appendChild(c);
+    }
+    host.appendChild(grid);
+  });
+}
+function goToFirstUnanswered(){
+  for(let n=1;n<=70;n++){
+    if(!String(ANSWERS[n]||'').trim()){ setCurrent(n); return; }
+  }
+  toast('Bạn đã làm hết tất cả các câu.');
+}
+function officialAnswerLabel(n, correct){
+  if(n>=46 && n<=50){
+    const letter=READING.group4 && READING.group4.officialLetters ? READING.group4.officialLetters[String(n)] : '';
+    if(letter) return letter+' · '+String(correct||'');
+  }
+  return String(correct||'');
+}
+function paintAutoQuestion(n, correct, picked){
+  const q=document.getElementById('q-'+n);
+  const cell=document.querySelector('.cell[data-num="'+n+'"]');
+  const ok=String(picked||'').trim()===String(correct||'').trim();
+  if(cell){ cell.classList.remove('done'); cell.classList.add(ok?'right':'bad'); }
+  if(!q) return ok;
+  q.classList.add('graded');
+  q.querySelectorAll('.letter,.opt').forEach(btn=>{
+    btn.disabled=true;
+    if(btn.dataset.val===correct) btn.classList.add('correct');
+    else if(btn.dataset.val===picked) btn.classList.add('wrong');
+    btn.classList.remove('pick');
+  });
+  const old=q.querySelector('.verdict'); if(old) old.remove();
+  const v=document.createElement('div'); v.className='verdict '+(ok?'right':'wrongv');
+  v.innerHTML=(ok?'✓ Đúng':'✗ Sai')+' · Đáp án đúng: <b>'+escapeHTML(officialAnswerLabel(n,correct))+'</b>';
+  q.appendChild(v);
+  return ok;
+}
+function escapeHTML(value){
+  return String(value==null?'':value).replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
+}
+function manualCardsHTML(){
+  return WRITING.part2.map(item=>{
+    const raw=String(ANSWERS[item.num]||'').trim();
+    const answer=raw ? escapeHTML(raw).replace(/\n/g,'<br>') : '<span>Học sinh không trả lời câu này.</span>';
+    const disabled=raw?'':' disabled';
+    return '<article class="manual-grade-card" data-manual-card="'+item.num+'">'+
+      '<img class="manual-grade-thumb" src="'+item.img+'" alt="Câu '+item.num+'">'+
+      '<div class="manual-grade-main">'+
+        '<div class="manual-grade-meta"><span class="manual-grade-q">Câu '+item.num+' · 小题'+item.sub+'</span><span class="manual-grade-word">'+escapeHTML(item.word)+'</span></div>'+
+        '<div class="manual-student-answer'+(raw?'':' blank')+'">'+answer+'</div>'+
+        '<div class="manual-reference-answer"><span class="ref-label">Đáp án tham khảo · không tự chấm</span>'+escapeHTML(item.sample||'')+'</div>'+
+      '</div>'+
+      '<div class="manual-grade-side">'+
+        '<div class="manual-score-status" data-grade-status="'+item.num+'">'+(raw?'Chưa chấm điểm':'Bỏ trống · 0/15 điểm')+'</div>'+
+        '<div class="manual-score-box"><input class="manual-score-input" type="number" min="0" max="15" step="1" inputmode="numeric" data-manual-score="'+item.num+'" placeholder="—"'+disabled+'><span class="manual-score-den">/ 15</span></div>'+
+        '<div class="manual-quick-scores">'+[0,5,10,15].map(v=>'<button class="manual-quick-btn" type="button" data-manual-quick="'+item.num+'" data-score="'+v+'"'+disabled+'>'+v+'</button>').join('')+'</div>'+
+      '</div>'+
+    '</article>';
+  }).join('');
+}
+function clampManualScore(value){
+  if(value===null||value===undefined||String(value).trim()==='') return null;
+  let n=Number(value); if(!Number.isFinite(n)) return null;
+  n=Math.max(0,Math.min(15,Math.round(n)));
+  return n;
+}
+function getManualStats(){
+  let points=0, pending=0, blank=0, full=0, zero=0, partial=0;
+  const reviewNums=[], pendingNums=[], blankNums=[];
+  WRITING.part2.forEach(item=>{
+    const n=item.num, has=!!String(ANSWERS[n]||'').trim();
+    if(!has){blank++;blankNums.push(n);MANUAL_GRADES[n]=0;zero++;reviewNums.push(n);return;}
+    const g=clampManualScore(MANUAL_GRADES[n]);
+    if(g===null){pending++;pendingNums.push(n);return;}
+    points+=g;
+    if(g===15) full++; else if(g===0){zero++;reviewNums.push(n)} else {partial++;reviewNums.push(n)}
+  });
+  const graded=5-pending;
+  return {points,pending,blank,full,zero,partial,graded,reviewNums,pendingNums,blankNums};
+}
+function setManualScore(n,value){
+  const has=!!String(ANSWERS[n]||'').trim();
+  MANUAL_GRADES[n]=has?clampManualScore(value):0;
+  manualFinalized=false;
+  syncManualGradingUI();
+}
+function finalizeManualGrades(){
+  const s=getManualStats();
+  if(s.pending){toast('Còn '+s.pending+' câu 66–70 chưa được giáo viên chấm điểm.');return;}
+  manualFinalized=true;
+  syncManualGradingUI();
+  toast('Đã cập nhật điểm cuối cùng sau khi giáo viên chấm tay.');
+  const result=$('#result'); if(result&&result.classList.contains('on')) result.scrollIntoView({behavior:'smooth',block:'start'}); else {const wr=$('#sectionResult-writing');if(wr)wr.scrollIntoView({behavior:'smooth',block:'center'});}
+}
+function scoreText(v){return (Math.round(v*10)/10).toFixed(1).replace('.0','')}
+function getSectionScores(manualPoints){
+  if(!RESULT_BASE) return {listening:0,reading:0,writing:0,total:0};
+  const listening=RESULT_BASE.listenRight*(100/30);
+  const reading=RESULT_BASE.readRight*(100/30);
+  const writing=RESULT_BASE.writeRight*5+(manualPoints||0);
+  return {listening,reading,writing,total:listening+reading+writing};
+}
+function updateScoreDashboard(scores,finalized){
+  const vals={Listening:scores.listening,Reading:scores.reading,Writing:scores.writing};
+  Object.entries(vals).forEach(([key,val])=>{
+    const out=document.getElementById('score'+key), fill=document.getElementById('score'+key+'Fill');
+    if(out) out.textContent=scoreText(val)+'/100';
+    if(fill) fill.style.width=Math.max(0,Math.min(100,val))+'%';
+  });
+  const total=document.getElementById('scoreTotal'), ring=document.getElementById('scoreRing'), rate=document.getElementById('scoreRate'), state=document.getElementById('scoreState');
+  if(total) total.textContent=scoreText(scores.total);
+  if(ring) ring.style.setProperty('--score-p',Math.max(0,Math.min(100,scores.total/300*100))+'%');
+  if(rate) rate.textContent='Tỷ lệ điểm: '+scoreText(scores.total/300*100)+'%';
+  if(state) state.textContent=finalized?'Đã gồm điểm giáo viên chấm câu 66–70.':'Điểm tạm tính · chưa gồm câu 66–70 chưa chấm.';
+  const totalKpi=document.getElementById('sumPoints'); if(totalKpi) totalKpi.textContent=scoreText(scores.total)+'/300';
+  const writeKpi=document.getElementById('sumWritingPoints'); if(writeKpi) writeKpi.textContent=scoreText(scores.writing)+'/100';
+}
+function syncManualGradingUI(){
+  if(!RESULT_BASE && !SECTION_RESULTS.writing) return;
+  const s=getManualStats();
+  WRITING.part2.forEach(item=>{
+    const n=item.num, has=!!String(ANSWERS[n]||'').trim(), g=clampManualScore(MANUAL_GRADES[n]);
+    const cards=document.querySelectorAll('[data-manual-card="'+n+'"]');
+    cards.forEach(card=>{
+      card.classList.remove('grade-full','grade-partial','grade-zero','grade-correct','grade-wrong');
+      if(g===15) card.classList.add('grade-full'); else if(g===0) card.classList.add('grade-zero'); else if(g!==null) card.classList.add('grade-partial');
+      const st=card.querySelector('[data-grade-status="'+n+'"]');
+      if(st){
+        st.className='manual-score-status'+(g===15?' full':g===0?' zero':g!==null?' partial':'');
+        st.textContent=!has?'Bỏ trống · 0/15 điểm':g===null?'Chưa chấm điểm':g===15?'Đạt tối đa · 15/15':g===0?'0/15 điểm':g+'/15 điểm';
+      }
+      const input=card.querySelector('[data-manual-score="'+n+'"]');
+      if(input){input.disabled=!has;input.value=g===null?'':g;}
+      card.querySelectorAll('[data-manual-quick="'+n+'"]').forEach(btn=>{btn.disabled=!has;btn.classList.toggle('active',g!==null&&Number(btn.dataset.score)===g);});
+    });
+    const cell=document.querySelector('.cell[data-num="'+n+'"]');
+    if(cell){cell.classList.remove('right','bad','done'); if(g===15)cell.classList.add('right');else if(g===0)cell.classList.add('bad');else cell.classList.add('done');}
+  });
+  const pg=$('#manualGradeProgress'); if(pg) pg.textContent=s.graded+'/5 câu đã chấm điểm · còn '+s.pending+' câu';
+  const mp=$('#manualPointCount'); if(mp) mp.textContent=s.points+'/75';
+  const mf=$('#manualFullCount'); if(mf) mf.textContent=s.full;
+  const mpart=$('#manualPartialCount'); if(mpart) mpart.textContent=s.partial;
+  const mz=$('#manualZeroCount'); if(mz) mz.textContent=s.zero;
+  const pend=$('#manualPendingCount'); if(pend) pend.textContent=s.pending;
+  const fin=$('#btnFinalizeManual'); if(fin){fin.disabled=s.pending>0;fin.textContent=manualFinalized?'✓ Điểm đã cập nhật':'Cập nhật kết quả sau chấm tay';}
+  const rowPoint=$('#manualRowPoint'); if(rowPoint) rowPoint.innerHTML='<span class="score-point">'+scoreText(s.points)+'</span><span class="score-max"> / 75</span>';
+  const rowState=$('#manualRowAcc'); if(rowState) rowState.textContent=manualFinalized?'Đã chấm đủ':(s.pending?'Còn '+s.pending+' câu':'Chờ cập nhật');
+  const manualReview=$('#manualWrongReview');
+  if(manualReview){
+    const items=s.reviewNums.map(n=>'<button class="review-chip '+(Number(MANUAL_GRADES[n]||0)===0?'bad':'blank')+'" data-review-manual="'+n+'">'+n+' · '+(MANUAL_GRADES[n]??0)+'/15</button>');
+    manualReview.innerHTML=items.length?items.join(''):'<span class="review-empty">Không có câu viết mở nào bị trừ điểm.</span>';
+    manualReview.querySelectorAll('[data-review-manual]').forEach(btn=>btn.addEventListener('click',()=>setCurrent(Number(btn.dataset.reviewManual))));
+  }
+  const manualReviewCount=$('#manualWrongCountReview'); if(manualReviewCount) manualReviewCount.textContent=s.reviewNums.length;
+  const swp=$('#sectionManualPointCount'); if(swp) swp.textContent=s.points+'/75';
+  const swp2=$('#sectionManualPoints'); if(swp2) swp2.textContent=s.points+'/75';
+  const swpend=$('#sectionManualPending'); if(swpend) swpend.textContent=s.pending;
+  const swprog=$('#sectionManualProgress'); if(swprog) swprog.textContent=s.graded+'/5 câu đã chấm điểm · còn '+s.pending+' câu.';
+  const swfin=$('#btnFinalizeManualSection'); if(swfin){swfin.disabled=s.pending>0;swfin.textContent=manualFinalized?'✓ Điểm phần Viết đã cập nhật':'Cập nhật điểm phần Viết';}
+  if(SECTION_RESULTS.writing){
+    const sectionWriteScore=SECTION_RESULTS.writing.writeRight*5+s.points;
+    const swscore=$('#sectionWritingScore'); if(swscore) swscore.innerHTML=scoreText(sectionWriteScore)+'<small> / 100 điểm</small>';
+    const swstate=$('#sectionWritingState'); if(swstate) swstate.textContent=manualFinalized?'Đã chấm đủ':'Chờ '+s.pending+' câu';
+  }
+  if(!RESULT_BASE) return;
+  const scores=getSectionScores(s.points);
+  updateScoreDashboard(scores,manualFinalized);
+  const status=$('#resultStatus'), sub=$('#resultSubnote');
+  if(manualFinalized){
+    if(status){status.className='result-status final';status.textContent='Đã chấm xong';}
+    if(sub) sub.innerHTML='Điểm cuối cùng đã gồm <b>Nghe 100 điểm · Đọc 100 điểm · Viết 100 điểm</b>, trong đó câu 66–70 do giáo viên chấm tối đa 15 điểm/câu.';
+  }else{
+    if(status){status.className='result-status pending';status.textContent='Chờ chấm phần viết';}
+    if(sub) sub.innerHTML='Điểm hiện tại là <b>tạm tính</b>. Giáo viên cần chấm câu <b>66–70</b> theo thang <b>0–15 điểm/câu</b>, rồi bấm <b>“Cập nhật kết quả sau chấm tay”</b>.';
+  }
+  const allReview=[...RESULT_BASE.wrongNums,...RESULT_BASE.blankNums,...(manualFinalized?s.reviewNums:[])];
+  const resultReview=$('#btnResultReview'); if(resultReview) resultReview.onclick=function(){const n=allReview[0];if(n)setCurrent(n);else toast('Không có câu nào cần xem lại.');};
+  const sideReview=$('#btnReview'); if(sideReview) sideReview.onclick=function(){const n=allReview[0];if(n)setCurrent(n);else toast('Không có câu nào cần xem lại.');};
+}
+function autoCorrectFor(n){
+  const picked=String(ANSWERS[n]||'').trim();
+  if(n<=30) return picked===String(LISTENING.answers[n]||'').trim();
+  if(n<=60) return picked===String(READING.answers[n]||'').trim();
+  if(n<=65){const item=WRITING.part1.find(x=>x.num===n);return !!item&&picked===String(item.answer||'').trim()}
+  return false;
+}
+function sectionAutoSummary(from,to){
+  let right=0,wrong=0,blank=0;
+  for(let n=from;n<=to;n++){
+    const picked=String(ANSWERS[n]||'').trim();
+    if(!picked) blank++; else if(autoCorrectFor(n)) right++; else wrong++;
+  }
+  return {right,wrong,blank,total:to-from+1,acc:Math.round(right/(to-from+1)*100)};
+}
+function bindManualControls(scope){
+  if(!scope) return;
+  scope.querySelectorAll('[data-manual-score]').forEach(input=>{
+    input.addEventListener('input',()=>setManualScore(Number(input.dataset.manualScore),input.value));
+    input.addEventListener('blur',()=>{const v=clampManualScore(input.value);if(v!==null)input.value=v;});
+  });
+  scope.querySelectorAll('[data-manual-quick]').forEach(btn=>btn.addEventListener('click',()=>setManualScore(Number(btn.dataset.manualQuick),Number(btn.dataset.score))));
+}
+function renderSectionResult(key,data){
+  const box=document.getElementById('sectionResult-'+key); if(!box) return;
+  box.classList.add('on');
+  if(key==='listening' || key==='reading'){
+    const score=data.right*(100/30);
+    box.innerHTML='<div class="section-result-head"><div><h3>Kết quả phần '+(key==='listening'?'Nghe':'Đọc')+'</h3><div class="section-result-note">Phần này đã được nộp riêng và khóa đáp án.</div></div><div class="section-score-big">'+scoreText(score)+'<small> / 100 điểm</small></div></div>'+ 
+      '<div class="section-result-stats"><div class="section-result-stat"><div class="k">Đúng</div><div class="v">'+data.right+'/'+data.total+'</div></div><div class="section-result-stat"><div class="k">Sai</div><div class="v">'+data.wrong+'</div></div><div class="section-result-stat"><div class="k">Bỏ trống</div><div class="v">'+data.blank+'</div></div><div class="section-result-stat"><div class="k">Độ chính xác</div><div class="v">'+data.acc+'%</div></div></div>'+ 
+      (key==='listening'?'<div class="section-result-actions"><button class="btn" type="button" data-open-transcript-section>📄 Xem bản chép lời</button></div>':'');
+    const tb=box.querySelector('[data-open-transcript-section]'); if(tb) tb.addEventListener('click',openTranscript);
+  } else {
+    const provisional=data.writeRight*5;
+    box.innerHTML='<div class="section-result-head"><div><h3>Kết quả phần Viết</h3><div class="section-result-note">Câu 61–65 đã chấm tự động. Câu 66–70 chờ giáo viên chấm tối đa 15 điểm/câu.</div></div><div class="section-score-big" id="sectionWritingScore">'+scoreText(provisional)+'<small> / 100 điểm</small></div></div>'+ 
+      '<div class="section-result-stats"><div class="section-result-stat"><div class="k">61–65 đúng</div><div class="v">'+data.writeRight+'/5</div></div><div class="section-result-stat"><div class="k">Điểm 61–65</div><div class="v">'+scoreText(provisional)+'/25</div></div><div class="section-result-stat"><div class="k">Điểm 66–70</div><div class="v" id="sectionManualPointCount">0/75</div></div><div class="section-result-stat"><div class="k">Trạng thái</div><div class="v" id="sectionWritingState" style="font-size:14px">Chờ chấm tay</div></div></div>'+ 
+      '<div class="student-manual-note"><strong>📸 Dành cho học sinh:</strong> hãy <strong>chụp màn hình 5 câu trả lời 66–70</strong> ở khu vực dưới đây và gửi cho giáo viên để giáo viên nhập điểm.</div>'+ 
+      '<div class="teacher-note"><strong>Dành cho giáo viên:</strong> đáp án dưới mỗi câu chỉ là <b>đáp án tham khảo</b>, hệ thống <b>không tự chấm đúng/sai câu 66–70</b>. Giáo viên chấm từng câu từ <b>0–15 điểm</b>, có thể cho điểm một phần; chấm đủ 5 câu rồi bấm cập nhật.</div>'+ 
+      '<div class="manual-grading-list">'+manualCardsHTML()+'</div>'+ 
+      '<div class="manual-grade-footer"><div><div class="manual-grade-summary"><span class="manual-mini-stat"><span>Điểm câu 66–70</span> <b class="manual-point-total" id="sectionManualPoints">0/75</b></span><span class="manual-mini-stat pending">Chưa chấm <b id="sectionManualPending">5</b></span></div><div class="manual-final-note" id="sectionManualProgress">0/5 câu đã chấm điểm.</div></div><button class="btn primary finalize-manual-btn" id="btnFinalizeManualSection" type="button" disabled>Cập nhật điểm phần Viết</button></div>';
+    bindManualControls(box);
+    const fin=box.querySelector('#btnFinalizeManualSection'); if(fin) fin.addEventListener('click',finalizeManualGrades);
+    syncManualGradingUI();
+  }
+  box.scrollIntoView({behavior:'smooth',block:'center'});
+}
+function submitSection(key){
+  if(examSubmitted || SECTION_SUBMITTED[key]) return;
+  if(EXAM_PAUSED){toast('Hãy tiếp tục thời gian trước khi nộp phần này.');return;}
+  const p=getSectionProgress(key), meta=SECTION_META[key];
+  if(!p.complete){toast('Cần trả lời đủ '+meta.max+'/'+meta.max+' câu phần '+meta.label+' trước khi nộp.');if(p.missing[0])setCurrent(p.missing[0]);return;}
+  if(!window.confirm('Nộp riêng phần '+meta.label+'? Sau khi nộp, đáp án của phần này sẽ bị khóa.')) return;
+  SECTION_SUBMITTED[key]=true;
+  if(key==='listening'){
+    const s=sectionAutoSummary(1,30); for(let n=1;n<=30;n++) paintAutoQuestion(n,LISTENING.answers[n],ANSWERS[n]); SECTION_RESULTS.listening=s; const a=$('#audio');if(a)a.pause(); showTranscriptButton(true); renderSectionResult(key,s);
+  } else if(key==='reading'){
+    const s=sectionAutoSummary(31,60); for(let n=31;n<=60;n++) paintAutoQuestion(n,READING.answers[n],ANSWERS[n]); SECTION_RESULTS.reading=s; renderSectionResult(key,s);
+  } else {
+    let writeRight=0;
+    WRITING.part1.forEach(item=>{const picked=String(ANSWERS[item.num]||'').trim(),ok=picked===item.answer;if(ok)writeRight++;const input=document.querySelector('#q-'+item.num+' .write-char');if(input){input.disabled=true;input.classList.add(ok?'correct':'wrong')}const cell=document.querySelector('.cell[data-num="'+item.num+'"]');if(cell){cell.classList.remove('done');cell.classList.add(ok?'right':'bad')}});
+    WRITING.part2.forEach(item=>{const ta=document.querySelector('#q-'+item.num+' .write-sentence');if(ta)ta.disabled=true;const cell=document.querySelector('.cell[data-num="'+item.num+'"]');if(cell)cell.classList.add('done')});
+    SECTION_RESULTS.writing={writeRight,autoPoints:writeRight*5}; renderSectionResult(key,SECTION_RESULTS.writing);
+  }
+  updateProgress();
+  toast('Đã nộp phần '+meta.label+'.');
+}
+function setExamPaused(paused){
+  if(examSubmitted) return;
+  EXAM_PAUSED=!!paused; timerRun=!EXAM_PAUSED;
+  const overlay=$('#pauseOverlay'); if(overlay){overlay.classList.toggle('on',EXAM_PAUSED);overlay.setAttribute('aria-hidden',EXAM_PAUSED?'false':'true')}
+  document.body.classList.toggle('exam-paused',EXAM_PAUSED);
+  ['.exam-nav','.player','.layout','.sheet-toggle'].forEach(sel=>{const el=document.querySelector(sel);if(!el)return;if(EXAM_PAUSED)el.setAttribute('inert','');else el.removeAttribute('inert')});
+  if(EXAM_PAUSED){
+    if(document.activeElement&&document.activeElement.blur) document.activeElement.blur();
+    const audio=$('#audio'); if(audio) audio.pause();
+    const resume=$('#btnResumeExam'); if(resume) setTimeout(()=>resume.focus(),0);
+  } else {
+    const pauseTop=$('#btnPause'); if(pauseTop) setTimeout(()=>pauseTop.focus(),0);
+  }
+  const pause=$('#btnPause'); if(pause) pause.textContent=EXAM_PAUSED?'▶':'⏸';
+  syncSubmitControls(Array.from({length:70},(_,i)=>i+1).filter(n=>String(ANSWERS[n]||'').trim()).length);
+  toast(EXAM_PAUSED?'Đã tạm dừng · bài làm đã bị khóa':'Đã tiếp tục làm bài');
+}
+function submitExam(){
+  if(examSubmitted) return;
+  if(EXAM_PAUSED){toast('Hãy tiếp tục thời gian trước khi nộp bài.');return;}
+  const missing=[];
+  for(let n=1;n<=70;n++) if(!String(ANSWERS[n]||'').trim()) missing.push(n);
+  if(missing.length){
+    toast('Cần hoàn thành đủ 70 câu trước khi nộp · còn '+missing.length+' câu.');
+    setCurrent(missing[0]);
+    return;
+  }
+  if(!window.confirm('Bạn đã làm đủ 70 câu. Nộp toàn bộ bài ngay?')) return;
+
+  examSubmitted=true; graded=true; readingGraded=true; timerRun=false; EXAM_PAUSED=false;
+  SECTION_SUBMITTED.listening=true;SECTION_SUBMITTED.reading=true;SECTION_SUBMITTED.writing=true;
+  const pauseBtn=$('#btnPause');if(pauseBtn)pauseBtn.disabled=true;
+  const audio=$('#audio'); if(audio) audio.pause();
+  let listenRight=0, readRight=0, writeRight=0;
+  for(let n=1;n<=30;n++) if(paintAutoQuestion(n, LISTENING.answers[n], ANSWERS[n])) listenRight++;
+  for(let n=31;n<=60;n++) if(paintAutoQuestion(n, READING.answers[n], ANSWERS[n])) readRight++;
+  WRITING.part1.forEach(item=>{
+    const input=document.querySelector('#q-'+item.num+' .write-char');
+    const picked=String(ANSWERS[item.num]||'').trim();
+    const ok=picked===item.answer;
+    if(ok) writeRight++;
+    if(input){ input.disabled=true; input.classList.add(ok?'correct':'wrong'); }
+    const cell=document.querySelector('.cell[data-num="'+item.num+'"]');
+    if(cell){ cell.classList.remove('done'); cell.classList.add(ok?'right':'bad'); }
+  });
+  WRITING.part2.forEach(item=>{
+    const ta=document.querySelector('#q-'+item.num+' .write-sentence'); if(ta) ta.disabled=true;
+    const has=!!String(ANSWERS[item.num]||'').trim();
+    if(!has) MANUAL_GRADES[item.num]=0;
+    const cell=document.querySelector('.cell[data-num="'+item.num+'"]');
+    if(cell && has) cell.classList.add('done');
+  });
+
+  const isCorrectAuto=(n)=>{
+    const picked=String(ANSWERS[n]||'').trim();
+    if(!picked) return false;
+    if(n<=30) return picked===String(LISTENING.answers[n]||'').trim();
+    if(n<=60) return picked===String(READING.answers[n]||'').trim();
+    if(n<=65){ const item=WRITING.part1.find(x=>x.num===n); return !!item && picked===String(item.answer||'').trim(); }
+    return false;
+  };
+  const autoRanges=[
+    {label:'Nghe · Phần 1',range:'1–10',from:1,to:10,maxScore:100/3},
+    {label:'Nghe · Phần 2',range:'11–20',from:11,to:20,maxScore:100/3},
+    {label:'Nghe · Phần 3',range:'21–30',from:21,to:30,maxScore:100/3},
+    {label:'Đọc · Phần 1',range:'31–40',from:31,to:40,maxScore:100/3},
+    {label:'Đọc · Phần 2',range:'41–50',from:41,to:50,maxScore:100/3},
+    {label:'Đọc · Phần 3',range:'51–60',from:51,to:60,maxScore:100/3},
+    {label:'Viết · Điền chữ',range:'61–65',from:61,to:65,maxScore:25}
+  ];
+  const detail=autoRanges.map(r=>{
+    let right=0, wrong=0, blank=0;
+    for(let n=r.from;n<=r.to;n++){
+      const p=String(ANSWERS[n]||'').trim();
+      if(!p) blank++; else if(isCorrectAuto(n)) right++; else wrong++;
+    }
+    const total=r.to-r.from+1;
+    const points=r.from<=60 ? right*(100/30) : right*5;
+    return {...r,right,wrong,blank,total,acc:Math.round(right/total*100),points};
+  });
+
+  const autoRight=listenRight+readRight+writeRight;
+  let autoBlank=0, autoWrong=0, totalAnswered=0;
+  const wrongNums=[], blankNums=[];
+  for(let n=1;n<=70;n++){
+    const has=!!String(ANSWERS[n]||'').trim(); if(has) totalAnswered++;
+    if(n<=65){
+      if(!has){autoBlank++;blankNums.push(n)}
+      else if(!isCorrectAuto(n)){autoWrong++;wrongNums.push(n)}
+    }
+  }
+  const used=Math.max(0,83*60-timerLeft);
+  const fmtUsed=(sec)=>{const m=Math.floor(sec/60),s=sec%60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')};
+  RESULT_BASE={autoRight,autoWrong,autoBlank,totalAnswered,used,wrongNums:[...wrongNums],blankNums:[...blankNums],detail,listenRight,readRight,writeRight};
+  const provisional=getSectionScores(0);
+  const chip=(n,cls)=>'<button class="review-chip '+cls+'" data-review-q="'+n+'">'+n+'</button>';
+  const rowHtml=detail.map(r=>
+    '<tr><td>'+r.label+'</td><td>'+r.range+'</td><td class="num-good">'+r.right+'</td><td class="num-bad">'+r.wrong+'</td><td class="num-muted">'+r.blank+'</td><td class="score-point">'+scoreText(r.points)+'<span class="score-max"> / '+scoreText(r.maxScore)+'</span></td><td class="acc-cell"><div class="acc-line"><span>'+r.acc+'%</span><span class="acc-track"><span class="acc-fill" style="width:'+r.acc+'%"></span></span></div></td></tr>'
+  ).join('');
+
+  const result=$('#result');
+  result.classList.add('on');
+  result.innerHTML=
+    '<div class="result-overview">'+
+      '<div class="res-info" style="grid-column:1/-1;width:100%">'+
+        '<div class="result-title-row"><h2>Kết quả bài làm</h2><span class="result-status pending" id="resultStatus">Chờ chấm phần viết</span></div>'+
+        '<div class="result-subnote" id="resultSubnote">Điểm hiện tại là <b>tạm tính</b>. Giáo viên cần chấm câu <b>66–70</b> theo thang <b>0–15 điểm/câu</b>.</div>'+
+        '<div class="result-summary-grid">'+
+          '<div class="result-summary-card result-kpi-main"><div class="k">Tổng điểm</div><div class="v" id="sumPoints">'+scoreText(provisional.total)+'/300</div></div>'+
+          '<div class="result-summary-card good"><div class="k">Câu tự chấm đúng</div><div class="v" id="sumRight">'+autoRight+'/65</div></div>'+
+          '<div class="result-summary-card bad"><div class="k">Câu tự chấm sai</div><div class="v" id="sumWrong">'+autoWrong+'</div></div>'+
+          '<div class="result-summary-card warn"><div class="k">Bỏ trống tự chấm</div><div class="v" id="sumBlank">'+autoBlank+'</div></div>'+
+          '<div class="result-summary-card"><div class="k">Điểm phần Viết</div><div class="v" id="sumWritingPoints">'+scoreText(provisional.writing)+'/100</div></div>'+
+          '<div class="result-summary-card"><div class="k">Thời gian làm</div><div class="v">'+fmtUsed(used)+'</div></div>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+    '<div class="score-dashboard">'+
+      '<section class="score-panel">'+
+        '<div class="score-panel-head"><div><h3>Điểm theo kỹ năng</h3><p>Mỗi kỹ năng tối đa 100 điểm</p></div><p>Nghe và Đọc tính theo số câu đúng.<br>Viết gồm 25 điểm điền chữ + 75 điểm đặt câu.</p></div>'+
+        '<div class="section-score-list">'+
+          '<div class="section-score-row"><div class="section-score-name">Nghe<small>30 câu · tối đa 100</small></div><div class="section-score-track"><div class="section-score-fill" id="scoreListeningFill" style="width:'+provisional.listening+'%"></div></div><div class="section-score-value" id="scoreListening">'+scoreText(provisional.listening)+'/100</div></div>'+
+          '<div class="section-score-row"><div class="section-score-name">Đọc<small>30 câu · tối đa 100</small></div><div class="section-score-track"><div class="section-score-fill" id="scoreReadingFill" style="width:'+provisional.reading+'%"></div></div><div class="section-score-value" id="scoreReading">'+scoreText(provisional.reading)+'/100</div></div>'+
+          '<div class="section-score-row pending"><div class="section-score-name">Viết<small>61–65: 5đ/câu · 66–70: 15đ/câu</small></div><div class="section-score-track"><div class="section-score-fill" id="scoreWritingFill" style="width:'+provisional.writing+'%"></div></div><div class="section-score-value" id="scoreWriting">'+scoreText(provisional.writing)+'/100</div></div>'+
+        '</div>'+
+      '</section>'+
+      '<aside class="score-total-card"><div class="score-ring" id="scoreRing" style="--score-p:'+(provisional.total/300*100)+'%"><div class="score-ring-inner"><div class="score-ring-number" id="scoreTotal">'+scoreText(provisional.total)+'</div><div class="score-ring-den">/ 300 điểm</div></div></div><div class="score-rate" id="scoreRate">Tỷ lệ điểm: '+scoreText(provisional.total/300*100)+'%</div><div class="score-state" id="scoreState">Điểm tạm tính · chưa gồm câu 66–70 chưa chấm.</div></aside>'+
+    '</div>'+
+    '<div class="result-section">'+
+      '<div class="result-section-title"><h3>Phân tích chi tiết</h3><span>Điểm được quy đổi theo thang của từng phần</span></div>'+
+      '<div class="result-table-wrap"><table class="result-table points-table"><thead><tr><th>Phần</th><th>Câu</th><th>Đúng</th><th>Sai</th><th>Trống</th><th>Điểm</th><th>Độ chính xác</th></tr></thead><tbody>'+rowHtml+
+        '<tr id="manualWritingRow"><td>Viết · Đặt câu</td><td>66–70</td><td colspan="3"><span class="manual-acc-text" id="manualRowAcc">Chờ giáo viên chấm</span></td><td id="manualRowPoint"><span class="score-point">0</span><span class="score-max"> / 75</span></td><td>—</td></tr>'+
+      '</tbody></table></div>'+
+    '</div>'+
+    '<div class="result-section manual-grade-section" id="manualGradeSection">'+
+      '<div class="result-section-title"><h3>Chấm điểm thủ công · Câu 66–70</h3><span id="manualGradeProgress">0/5 câu đã chấm điểm · còn 5 câu</span></div>'+
+      '<div class="student-manual-note"><strong>📸 Dành cho học sinh:</strong> hãy <strong>chụp màn hình khu vực câu trả lời 66–70</strong> và gửi cho giáo viên để được chấm điểm phần viết mở.</div><div class="teacher-note"><strong>Dành cho giáo viên:</strong> đáp án hiển thị dưới từng câu là <b>đáp án tham khảo</b>, không dùng để tự động kết luận đúng/sai. Mỗi câu đặt câu tối đa <b>15 điểm</b>; nhập điểm từ <b>0 đến 15</b> và có thể cho điểm một phần.</div>'+
+      '<div class="manual-grading-list">'+manualCardsHTML()+'</div>'+
+      '<div class="manual-grade-footer">'+
+        '<div><div class="manual-grade-summary"><span class="manual-mini-stat"><span>Điểm</span> <b class="manual-point-total" id="manualPointCount">0/75</b></span><span class="manual-mini-stat good">15/15 <b id="manualFullCount">0</b></span><span class="manual-mini-stat pending">Một phần <b id="manualPartialCount">0</b></span><span class="manual-mini-stat bad">0 điểm <b id="manualZeroCount">0</b></span><span class="manual-mini-stat pending">Chưa chấm <b id="manualPendingCount">5</b></span></div><div class="manual-final-note">Chấm đủ 5 câu rồi bấm cập nhật để tính <strong>điểm cuối cùng /300</strong>.</div></div>'+
+        '<button class="btn primary finalize-manual-btn" id="btnFinalizeManual" type="button" disabled>Cập nhật kết quả sau chấm tay</button>'+
+      '</div>'+
+    '</div>'+
+    '<div class="result-section">'+
+      '<div class="result-section-title"><h3>Câu cần xem lại</h3><span>Bấm số câu để quay lại câu tương ứng</span></div>'+
+      '<div class="review-groups">'+
+        '<div class="review-box"><h4>Sai tự chấm ('+wrongNums.length+')</h4><div class="review-chips">'+(wrongNums.length?wrongNums.map(n=>chip(n,'bad')).join(''):'<span class="review-empty">Không có câu sai.</span>')+'</div></div>'+
+        '<div class="review-box"><h4>Bỏ trống tự chấm ('+blankNums.length+')</h4><div class="review-chips">'+(blankNums.length?blankNums.map(n=>chip(n,'blank')).join(''):'<span class="review-empty">Không có câu bỏ trống trong phần tự chấm.</span>')+'</div></div>'+
+        '<div class="review-box manual-review"><h4>Câu 66–70 bị trừ điểm (<span id="manualWrongCountReview">0</span>)</h4><div class="review-chips" id="manualWrongReview"><span class="review-empty">Chưa có câu viết mở nào bị trừ điểm.</span></div></div>'+
+      '</div>'+
+    '</div>'+
+    '<div class="result-actions-v3"><button class="btn primary" id="btnResultReview">Xem câu cần xem lại</button><button class="btn" id="btnResultTop">Về đầu kết quả</button><button class="btn retry-exam-btn" id="btnRetryExam" type="button">↻ Làm lại đề</button></div>';
+
+  result.querySelectorAll('[data-review-q]').forEach(btn=>btn.addEventListener('click',()=>setCurrent(Number(btn.dataset.reviewQ))));
+  result.querySelectorAll('[data-manual-score]').forEach(input=>{
+    input.addEventListener('input',()=>setManualScore(Number(input.dataset.manualScore),input.value));
+    input.addEventListener('blur',()=>{const v=clampManualScore(input.value);if(v!==null)input.value=v;});
+  });
+  result.querySelectorAll('[data-manual-quick]').forEach(btn=>btn.addEventListener('click',()=>setManualScore(Number(btn.dataset.manualQuick),Number(btn.dataset.score))));
+  $('#btnFinalizeManual').addEventListener('click',finalizeManualGrades);
+  $('#btnResultTop').onclick=function(){ result.scrollIntoView({behavior:'smooth',block:'start'}); };
+  const retryBtn=$('#btnRetryExam'); if(retryBtn) retryBtn.addEventListener('click',resetExamForRetry);
+
+  $('#btnSubmit').disabled=true;
+  showTranscriptButton(true);
+  $('#btnReview').textContent='Xem câu cần xem lại';
+  syncManualGradingUI();
+  updateProgress();
+  result.scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+function resetExamForRetry(){
+  if(!examSubmitted) return;
+  if(!window.confirm('Làm lại đề sẽ xóa toàn bộ đáp án và kết quả của lượt vừa rồi. Bạn muốn bắt đầu lại từ câu 1?')) return;
+
+  Object.keys(ANSWERS).forEach(k=>delete ANSWERS[k]);
+  Object.keys(MANUAL_GRADES).forEach(k=>MANUAL_GRADES[k]=null);
+  RESULT_BASE=null;
+  manualFinalized=false;
+  examSubmitted=false;
+  EXAM_PAUSED=false; timerRun=true;
+  Object.keys(SECTION_SUBMITTED).forEach(k=>SECTION_SUBMITTED[k]=false);
+  Object.keys(SECTION_RESULTS).forEach(k=>SECTION_RESULTS[k]=null);
+  document.querySelectorAll('.section-result-card').forEach(el=>{el.classList.remove('on');el.innerHTML='';});
+  const pov=$('#pauseOverlay');if(pov){pov.classList.remove('on');pov.setAttribute('aria-hidden','true')}
+  document.body.classList.remove('exam-paused');
+  ['.exam-nav','.player','.layout','.sheet-toggle'].forEach(sel=>{const el=document.querySelector(sel);if(el)el.removeAttribute('inert')});
+  showTranscriptButton(false);
+  closeTranscript();
+  graded=false;
+  readingGraded=false;
+  currentQ=1;
+  timerLeft=83*60;
+  timerRun=true;
+
+  const result=$('#result');
+  if(result){ result.classList.remove('on'); result.innerHTML=''; }
+
+  document.querySelectorAll('.q').forEach(q=>{
+    q.classList.remove('graded','active');
+    const verdict=q.querySelector('.verdict'); if(verdict) verdict.remove();
+  });
+  document.querySelectorAll('.letter,.opt').forEach(btn=>{
+    btn.disabled=false;
+    btn.classList.remove('pick','correct','wrong');
+  });
+  document.querySelectorAll('.write-char,.write-sentence').forEach(field=>{
+    field.disabled=false;
+    field.value='';
+    field.classList.remove('correct','wrong');
+  });
+  document.querySelectorAll('.cell').forEach(cell=>cell.classList.remove('done','right','bad','here'));
+
+  const submit=$('#btnSubmit'); if(submit) submit.disabled=false;
+  const review=$('#btnReview');
+  if(review){ review.textContent='Tới câu chưa làm'; review.onclick=null; }
+  const pause=$('#btnPause'); if(pause){pause.textContent='⏸';pause.disabled=false;}
+
+  const audio=$('#audio');
+  if(audio){
+    audio.pause();
+    try{ audio.currentTime=0; }catch(e){}
+  }
+
+  updateTimerUI();
+  refreshAllUniqueChoices();
+  updateProgress();
+  setCurrent(1);
+  const first=document.getElementById('q-1');
+  if(first) first.scrollIntoView({behavior:'smooth',block:'center'});
+  toast('Đã làm mới đề · Bắt đầu lượt làm lại');
+}
+
+
+function showTranscriptButton(show){
+  const b=document.getElementById('btnTranscript');
+  if(!b) return;
+  b.hidden=!show;
+}
+function openTranscript(){
+  if(!examSubmitted && !SECTION_SUBMITTED.listening) return;
+  const m=document.getElementById('transcriptModal');
+  if(!m) return;
+  m.classList.add('on');
+  m.setAttribute('aria-hidden','false');
+  document.body.classList.add('transcript-open');
+  const close=document.getElementById('btnTranscriptClose');
+  if(close) setTimeout(()=>close.focus(),0);
+}
+function closeTranscript(){
+  const m=document.getElementById('transcriptModal');
+  if(!m) return;
+  m.classList.remove('on');
+  m.setAttribute('aria-hidden','true');
+  document.body.classList.remove('transcript-open');
+}
+function initTranscript(){
+  const b=document.getElementById('btnTranscript');
+  const close=document.getElementById('btnTranscriptClose');
+  if(b) b.addEventListener('click',openTranscript);
+  if(close) close.addEventListener('click',closeTranscript);
+  document.querySelectorAll('[data-close-transcript]').forEach(el=>el.addEventListener('click',closeTranscript));
+  document.addEventListener('keydown',(e)=>{if(e.key==='Escape' && document.getElementById('transcriptModal')?.classList.contains('on')) closeTranscript();});
+  showTranscriptButton(false);
+}
+
+function startTimer(){ updateTimerUI(); setInterval(()=>{ if(!timerRun) return; if(timerLeft>0) timerLeft--; updateTimerUI(); },1000); }
+function updateTimerUI(){ const t=$('#timer'); $('#timeTxt').textContent=fmtClock(timerLeft); t.classList.toggle('warn', timerLeft<=300 && timerLeft>60); t.classList.toggle('danger', timerLeft<=60); }
+function initAudio(){ const audio=$('#audio'), play=$('#plPlay'), back=$('#plBack'), track=$('#plTrack'), fill=$('#plFill'), time=$('#plTime'), rate=$('#plRate'); const rates=[1,1.25,1.5,0.75]; let ri=0; function sync(){ fill.style.width = audio.duration ? (audio.currentTime/audio.duration*100)+'%' : '0%'; time.textContent = fmtShort(audio.currentTime)+' / '+(isFinite(audio.duration)?fmtShort(audio.duration):'0:00'); play.textContent = audio.paused ? '▶' : '⏸'; } play.addEventListener('click',()=>{ if(EXAM_PAUSED)return; if(audio.paused) audio.play(); else audio.pause(); }); back.addEventListener('click',()=>{ if(EXAM_PAUSED)return; audio.currentTime=Math.max(0,audio.currentTime-5); }); track.addEventListener('click',(e)=>{ if(EXAM_PAUSED)return; const r=track.getBoundingClientRect(); const p=(e.clientX-r.left)/r.width; if(isFinite(audio.duration)) audio.currentTime=Math.max(0,Math.min(audio.duration,audio.duration*p)); }); rate.addEventListener('click',()=>{ if(EXAM_PAUSED)return; ri=(ri+1)%rates.length; audio.playbackRate=rates[ri]; rate.textContent=rates[ri].toFixed(2).replace('.00','.0')+'×'; }); audio.addEventListener('timeupdate',sync); audio.addEventListener('loadedmetadata',sync); audio.addEventListener('play',sync); audio.addEventListener('pause',sync); audio.addEventListener('ended',sync); audio.addEventListener('error',()=>{ play.textContent='⚠'; play.title='Không thể phát file nghe'; toast('Không thể phát file nghe trên trình duyệt này'); }); sync(); }
+function initTheme(){ const key='hsk3-listening-theme'; try{ if(localStorage.getItem(key)==='dark') document.body.classList.add('dark'); }catch(e){} syncThemeText(); $('#btnTheme').addEventListener('click',()=>{ document.body.classList.toggle('dark'); try{ localStorage.setItem(key, document.body.classList.contains('dark')?'dark':'light'); }catch(e){} syncThemeText(); }); }
+function syncThemeText(){ $('#themeTxt').textContent=document.body.classList.contains('dark')?'Sáng':'Tối'; $('#btnTheme').childNodes[0].textContent=document.body.classList.contains('dark')?'☀️ ':'🌙 '; }
+function bindUI(){
+  $('#btnPause').addEventListener('click',()=>setExamPaused(!EXAM_PAUSED));
+  const resumeBtn=$('#btnResumeExam'); if(resumeBtn) resumeBtn.addEventListener('click',()=>setExamPaused(false));
+  $('#btnReview').addEventListener('click',goToFirstUnanswered);
+  $('#btnSubmit').addEventListener('click',submitExam);
+  document.querySelectorAll('[data-section-submit]').forEach(btn=>btn.addEventListener('click',()=>submitSection(btn.dataset.sectionSubmit)));
+}
+buildListening(); buildReading(); buildWriting(); buildAnswerGrid(); initTheme(); initAudio(); initTranscript(); bindUI(); refreshAllUniqueChoices(); updateProgress(); setCurrent(1); startTimer();
+</script>
+<script id="ux-v2-js">
+(function(){
+  const body=document.body;
+  const presentBtn=document.getElementById('btnPresent');
+  const sheet=document.querySelector('.sheet');
+  const sheetToggle=document.getElementById('sheetToggle');
+  const sheetClose=document.getElementById('sheetClose');
+  const sheetOverlay=document.getElementById('sheetOverlay');
+  const toggleCount=document.getElementById('sheetToggleCount');
+  const progTxt=document.getElementById('progTxt');
+
+  function setPresentation(on){
+    body.classList.toggle('presentation',on);
+    if(presentBtn){
+      presentBtn.classList.toggle('active',on);
+      const t=presentBtn.querySelector('.present-txt');
+      if(t) t.textContent=on?'Thoát trình chiếu':'Trình chiếu';
+      presentBtn.setAttribute('aria-pressed',on?'true':'false');
+    }
+    try{localStorage.setItem('hsk3-presentation',on?'1':'0')}catch(e){}
+  }
+  if(presentBtn){
+    presentBtn.addEventListener('click',()=>setPresentation(!body.classList.contains('presentation')));
+  }
+
+  function openSheet(){
+    if(!sheet) return;
+    sheet.classList.add('mobile-open');
+    sheetOverlay && sheetOverlay.classList.add('on');
+    body.classList.add('sheet-open');
+  }
+  function closeSheet(){
+    if(!sheet) return;
+    sheet.classList.remove('mobile-open');
+    sheetOverlay && sheetOverlay.classList.remove('on');
+    body.classList.remove('sheet-open');
+  }
+  sheetToggle && sheetToggle.addEventListener('click',openSheet);
+  sheetClose && sheetClose.addEventListener('click',closeSheet);
+  sheetOverlay && sheetOverlay.addEventListener('click',closeSheet);
+  document.addEventListener('keydown',(e)=>{if(e.key==='Escape') closeSheet()});
+  if(sheet){sheet.addEventListener('click',(e)=>{if(window.innerWidth<=900 && e.target.closest('.cell')) setTimeout(closeSheet,120)})}
+
+  function syncCount(){if(toggleCount && progTxt) toggleCount.textContent=progTxt.textContent}
+  syncCount();
+  if(progTxt) new MutationObserver(syncCount).observe(progTxt,{childList:true,subtree:true,characterData:true});
+
+  const navItems=[...document.querySelectorAll('.exam-nav-item')];
+  const sections=[
+    {key:'listening',el:document.getElementById('sec-listening')},
+    {key:'reading',el:document.getElementById('sec-reading')},
+    {key:'writing',el:document.getElementById('sec-writing')}
+  ].filter(x=>x.el);
+  let ticking=false;
+  function syncSection(){
+    ticking=false;
+    const y=window.scrollY+190;
+    let active='listening';
+    sections.forEach(s=>{if(s.el.offsetTop<=y) active=s.key});
+    body.classList.remove('section-listening','section-reading','section-writing');
+    body.classList.add('section-'+active);
+    navItems.forEach(a=>{
+      const on=a.dataset.section===active;
+      a.classList.toggle('active',on);
+      if(on) a.setAttribute('aria-current','true'); else a.removeAttribute('aria-current');
+    });
+  }
+  window.addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(syncSection)}},{passive:true});
+  window.addEventListener('resize',()=>{if(window.innerWidth>900) closeSheet()});
+  navItems.forEach(a=>a.addEventListener('click',()=>{closeSheet()}));
+  syncSection();
+
+  // Student-friendly keyboard behavior: Enter moves from a one-character writing field to the next.
+  document.querySelectorAll('.write-char').forEach((input,idx,arr)=>{
+    input.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter' && idx<arr.length-1){e.preventDefault();arr[idx+1].focus();}
+    });
+  });
+})();
+</script>
+</body>
+</html>
